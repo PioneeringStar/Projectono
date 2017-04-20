@@ -44,6 +44,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Environment\IocContainerTests.cs" />
     <Compile Include="Environment\ObservableTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
