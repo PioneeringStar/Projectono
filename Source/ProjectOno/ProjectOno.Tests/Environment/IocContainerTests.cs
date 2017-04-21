@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using ProjectOno.Core.Environment;
+using ProjectOno.Environment;
 
 namespace ProjectOno.Tests.Environment
 {
