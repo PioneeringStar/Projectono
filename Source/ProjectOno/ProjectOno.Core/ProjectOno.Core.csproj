@@ -35,7 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Application\ViewModels\MenuItemViewModel.cs" />
     <Compile Include="Environment\IocContainer.cs" />
     <Compile Include="Environment\Observable.cs" />
     <Compile Include="Environment\ViewModel.cs" />

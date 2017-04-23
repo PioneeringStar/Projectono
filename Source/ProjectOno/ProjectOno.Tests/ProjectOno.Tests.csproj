@@ -35,7 +35,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Environment\DataViewModelTests.cs" />
     <Compile Include="Environment\IocContainerTests.cs" />
     <Compile Include="Environment\ObservableTests.cs" />
   </ItemGroup>
