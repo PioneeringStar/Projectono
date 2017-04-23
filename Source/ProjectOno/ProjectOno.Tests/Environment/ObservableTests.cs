@@ -73,7 +73,7 @@ namespace ProjectOno.Tests.Environment
             ((IObservable)test).SuspendNotifications();
             test.PropertyA = 10;
 
-            Assert.AreEqual(true, ((IObservable)test).IsSuspendingNotifications);
+            Assert.AreEqual(true, ((IObservable)test).GetIsSuspended());
             Assert.AreEqual(0, propertyChanges.Count);
             Assert.AreEqual(0, observations.Count);
         }
@@ -93,7 +93,7 @@ namespace ProjectOno.Tests.Environment
             test.PropertyB = 30;
             ((IObservable)test).ResumeNotifications();
 
-            Assert.AreEqual(false, ((IObservable)test).IsSuspendingNotifications);
+            Assert.AreEqual(false, ((IObservable)test).GetIsSuspended());
             Assert.AreEqual(2, propertyChanges.Count);
             Assert.AreEqual("PropertyA", propertyChanges[0]);
             Assert.AreEqual("PropertyB", propertyChanges[1]);

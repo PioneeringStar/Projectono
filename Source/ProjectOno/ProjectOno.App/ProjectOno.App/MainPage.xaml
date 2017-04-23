@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:ProjectOno.App"
              x:Class="ProjectOno.App.MainPage">
 
-	<Label Text="Welcome to Xamarin Forms!" 
+	<Label Text="{Binding TestData}" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 

@@ -7,13 +7,16 @@ using Xamarin.Forms;
 
 namespace ProjectOno.App
 {
-	public partial class App : Application
+	public partial class App : Xamarin.Forms.Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new ProjectOno.App.MainPage();
+            var Application = Bootstrap.StartApplication();
+			MainPage = new MainPage {
+                BindingContext = Application
+            };
 		}
 
 		protected override void OnStart ()
