@@ -16,6 +16,8 @@ namespace ProjectOno.Environment.Adaptors
                 attributes.Flags = value
                     ? attributes.Flags | FullscreenFlag
                     : attributes.Flags & ~FullscreenFlag;
+                Forms.SetTitleBarVisibility(value ? AndroidTitleBarVisibility.Never : AndroidTitleBarVisibility.Default);
+                //TODO: Figure out how to hide the action bar
             }
         }
     }
