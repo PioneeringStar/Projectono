@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectOno.Environment.Adaptors;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -19,8 +20,8 @@ namespace ProjectOno.App.UWP
     {
         public MainPage()
         {
+            PlatformAdaptor.MainPage = this;
             this.InitializeComponent();
-
             LoadApplication(new ProjectOno.App.App());
         }
     }

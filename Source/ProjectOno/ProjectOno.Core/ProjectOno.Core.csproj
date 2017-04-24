@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
     <Compile Include="Environment\IocContainer.cs" />
     <Compile Include="Environment\Observable.cs" />
     <Compile Include="Environment\ViewModel.cs" />

@@ -29,4 +29,7 @@
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)ReadMe.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Views\" />
+  </ItemGroup>
 </Project>
