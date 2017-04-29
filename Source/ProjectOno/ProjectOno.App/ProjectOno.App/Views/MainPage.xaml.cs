@@ -12,6 +12,7 @@ namespace ProjectOno.App
 		public MainPage()
 		{
 			InitializeComponent();
+            var r = this.Resources;
 		}
 	}
 }

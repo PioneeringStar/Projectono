@@ -8,17 +8,21 @@ namespace ProjectOno
 {
 	public static class Bootstrap
 	{
-		public static ApplicationViewModel StartApplication(IIocContainer container = null) {
-			container = container ?? new IocContainer();
+        public static ApplicationViewModel StartApplication(IIocContainer container = null)
+        {
+            container = container ?? new IocContainer();
 
-			RegisterCustomDependencies(container);
-			ReflectDependencies(container, typeof(Bootstrap).GetTypeInfo().Assembly);
-			RegisterPlugins(container);
+            RegisterCustomDependencies(container);
+            ReflectDependencies(container, typeof(Bootstrap).GetTypeInfo().Assembly);
+            RegisterPlugins(container);
 
-			return ViewModel.Factory.Create<ApplicationViewModel>(container, null);
-		}
+            var application = (ApplicationViewModel)container.Resolve(typeof(ApplicationViewModel));
+            ViewModel.Factory.Configure(application, container, null);
+            return application;
+        }
 
-		public static void ReflectDependencies(IIocContainer container, Assembly assembly) {
+
+        public static void ReflectDependencies(IIocContainer container, Assembly assembly) {
 			var dependencies = assembly
 				.DefinedTypes
 				.Where(t => t.GetCustomAttributes().Any(a => a is Dependency))

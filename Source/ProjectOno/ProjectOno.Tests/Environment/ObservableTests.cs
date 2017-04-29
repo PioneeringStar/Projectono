@@ -1,7 +1,9 @@
 ﻿using NUnit.Framework;
 using ProjectOno.Environment;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq.Expressions;
 
 namespace ProjectOno.Tests.Environment
 {
@@ -114,5 +116,21 @@ namespace ProjectOno.Tests.Environment
             public int PropertyA { get { return Get<int>(); } set { Set(value); } }
             public int PropertyB { get { return Get<int>(); } set { Set(value); } }
         }
+
+
+        private class TestClass
+        {
+            public string Value { get; set; }
+        }
+
+        [Test]
+        public void Test()
+        {
+            var cls = new TestClass();
+            var expression = GetExpression(() => cls.Value);
+            var test = expression.GetType();
+        }
+
+        private Expression GetExpression(Expression<Func<object>> expression) { return expression.Body; }
     }
 }

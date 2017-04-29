@@ -2,10 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProjectOno.App"
+             xmlns:environment="clr-namespace:ProjectOno.App.Environment"
              x:Class="ProjectOno.App.MainPage">
-
-	<Label Text="{Binding TestData}" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <environment:ViewModelSelector x:Key="Magic">
+                <environment:Assignment ValueA="A" ValueB="B" />
+                <environment:Assignment ValueA="AA" ValueB="BB" />
+                <environment:Assignment ValueA="AAA" ValueB="BBB" />
+            </environment:ViewModelSelector>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 </ContentPage>

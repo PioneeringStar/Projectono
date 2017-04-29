@@ -35,7 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Application\ViewModels\MainMenu\IMenuItem.cs" />
+    <Compile Include="Application\ViewModels\MainMenu\MainMenuViewModel.cs" />
+    <Compile Include="Application\ViewModels\MainMenu\TestMenuItemA.cs" />
+    <Compile Include="Application\ViewModels\MainMenu\TestMenuItemB.cs" />
     <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
+    <Compile Include="Environment\Command.cs" />
+    <Compile Include="Environment\Extensions\ExpressionExtensions.cs" />
+    <Compile Include="Environment\Extensions\ObservableExtensions.cs" />
     <Compile Include="Environment\IocContainer.cs" />
     <Compile Include="Environment\Observable.cs" />
     <Compile Include="Environment\ViewModel.cs" />
@@ -47,17 +54,6 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="ReadMe.md" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Xaml.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

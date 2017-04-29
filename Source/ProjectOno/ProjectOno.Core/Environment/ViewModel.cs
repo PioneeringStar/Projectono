@@ -17,21 +17,25 @@ namespace ProjectOno.Environment
         public TViewModel CreateChild<TViewModel>()
             where TViewModel : ViewModel
         {
-            return Factory.Create<TViewModel>(_container, this);
+            var viewmodel = (TViewModel)_container.Resolve(typeof(TViewModel));
+            Factory.Configure(viewmodel, _container, this);
+            return viewmodel;
+        }
+
+        public void AddChild(ViewModel viewmodel)
+        {
+            Factory.Configure(viewmodel, _container, this);
         }
 
         public static class Factory
         {
-            public static TViewModel Create<TViewModel>(IIocContainer container, IViewModel parent)
-                where TViewModel : ViewModel
+            public static void Configure(ViewModel viewmodel, IIocContainer container, IViewModel parent)
             {
-                var viewmodel = (TViewModel)container.Resolve(typeof(TViewModel));
-                viewmodel._parent = parent;
                 var scope = container.CreateScope();
                 scope.AddInstance(typeof(IViewModel), viewmodel);
                 viewmodel._container = scope;
+                viewmodel._parent = parent;
                 viewmodel.OnReady();
-                return viewmodel;
             }
         }
     }
