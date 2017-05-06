@@ -14,7 +14,7 @@ namespace ProjectOno.App
 	public partial class App : Xamarin.Forms.Application
 	{
         private IIocContainer _container;
-        private ApplicationViewModel _application;
+        private Application.ViewModels.Application _application;
 
 		public App ()
 		{
@@ -31,17 +31,17 @@ namespace ProjectOno.App
 
 		protected override void OnStart ()
 		{
-            // Handle when your app starts
+
         }
 
         protected override void OnSleep ()
 		{
-			// Handle when your app sleeps
+
 		}
 
 		protected override void OnResume ()
 		{
-			// Handle when your app resumes
+
 		}
 	}
 }

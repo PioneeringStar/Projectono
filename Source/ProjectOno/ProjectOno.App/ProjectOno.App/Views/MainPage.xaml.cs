@@ -12,7 +12,7 @@ namespace ProjectOno.App
 		public MainPage()
 		{
 			InitializeComponent();
-            var r = this.Resources;
+            var m = this.Content;
 		}
 	}
 }

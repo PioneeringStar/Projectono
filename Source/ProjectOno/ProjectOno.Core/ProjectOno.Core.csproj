@@ -35,10 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Application\ViewModels\MainMenu\IMenuItem.cs" />
-    <Compile Include="Application\ViewModels\MainMenu\MainMenuViewModel.cs" />
-    <Compile Include="Application\ViewModels\MainMenu\TestMenuItemA.cs" />
-    <Compile Include="Application\ViewModels\MainMenu\TestMenuItemB.cs" />
+    <Compile Include="Application\ViewModels\MainMenu.cs" />
     <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
     <Compile Include="Environment\Command.cs" />
     <Compile Include="Environment\Extensions\ExpressionExtensions.cs" />
@@ -49,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Environment\Dependency.cs" />
     <Compile Include="Bootstrap.cs" />
-    <Compile Include="Application\ViewModels\ApplicationViewModel.cs" />
+    <Compile Include="Application\ViewModels\Application.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

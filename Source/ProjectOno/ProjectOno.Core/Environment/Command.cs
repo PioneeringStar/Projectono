@@ -7,29 +7,33 @@ using System.Windows.Input;
 
 namespace ProjectOno.Environment
 {
-    public class Command : ICommand
+    public class EventCommand : ICommand
     {
         public event EventHandler CanExecuteChanged;
 
         public bool CanExecute(object parameter)
         {
-            if (_canExecute != null) return _canExecute(parameter);
-            return true;
+            return ExecuteCommand != null;
         }
 
         public void Execute(object parameter)
         {
-            _execute(parameter);
+            if (ExecuteCommand != null) { ExecuteCommand(this, null); }
         }
 
-        private readonly Action<object> _execute;
-        private readonly Func<object, bool> _canExecute;
+        private event EventHandler ExecuteCommand;
 
-        public Command(Action<object> execute, Func<object, bool> canExecute) { _execute = execute; _canExecute = canExecute; }
-        public Command(Action<object> execute, Func<bool> canExecute) : this(execute, p => canExecute()) { }
-        public Command(Action execute, Func<object, bool> canExecute) : this(p => execute(), canExecute) { }
-        public Command(Action execute, Func<bool> canExecute) : this(p => execute(), p => canExecute()) { }
-        public Command(Action<object> execute) : this(execute, (Func<object, bool>)null) { }
-        public Command(Action execute) : this(() => execute(), (Func<object, bool>)null) { }
+        public event EventHandler CommandExecuted
+        {
+            add {
+                var changed = ExecuteCommand == null;
+                ExecuteCommand += value;
+                if (changed && CanExecuteChanged != null) { CanExecuteChanged(this, null); }
+            }
+            remove {
+                ExecuteCommand -= value;
+                if (ExecuteCommand == null && CanExecuteChanged != null) { CanExecuteChanged(this, null); }
+            }
+        }
     }
 }

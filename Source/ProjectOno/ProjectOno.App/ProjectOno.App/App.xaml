@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:env="clr-namespace:ProjectOno.App.Environment"
+             xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
              x:Class="ProjectOno.App.App">
 	<Application.Resources>
-
-		<!-- Application resource dictionary -->
-
-	</Application.Resources>
+        <ResourceDictionary>
+            <env:ViewModelTemplate Type="{x:Type vm:MainMenu}" x:Key="MainMenuView">
+                <Label Text="Oh Xamarin... You are soooooooo far behind in your architecture. Please catch up soon..."/>
+            </env:ViewModelTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
