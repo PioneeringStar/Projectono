@@ -14,12 +14,13 @@
                 </ControlTemplate>
             </env:ViewModelTemplate>
             
+            <!-- This is just a test, inline assignment -->
             <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
                 <ControlTemplate>
                     <StackLayout>
-                        <Label Text="------------------------------------Test Starting!-----------------------------------"/>
-                        <Label Text="{Binding TestText}" />
-                        <Label Text="------------------------------------Test Complete!-----------------------------------"/>
+                        <Label Text="------------------------------------Test Starting!-----------------------------------" TextColor="Red" />
+                        <Label Text="{Binding TestText}" TextColor="Red" />
+                        <Label Text="------------------------------------Test Complete!-----------------------------------" TextColor="Red" />
                     </StackLayout>
                 </ControlTemplate>
             </env:ViewModelTemplate>
