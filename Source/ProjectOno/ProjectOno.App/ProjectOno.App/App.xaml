@@ -7,6 +7,13 @@
              x:Class="ProjectOno.App.App">
 	<Application.Resources>
         <ResourceDictionary>
+            <!-- Global assignments of views to view-models should be configured here -->
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:Splash}" x:Key="SplashViewModelAssignment">
+                <ControlTemplate>
+                    <view:Splash />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+            
             <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
                 <ControlTemplate>
                     <StackLayout>

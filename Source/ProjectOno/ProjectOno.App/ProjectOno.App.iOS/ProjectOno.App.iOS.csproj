@@ -136,6 +136,10 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ProjectOno.Assets\ProjectOno.Assets.csproj">
+      <Project>{3528c86c-b625-4720-8017-6cedf921a1c6}</Project>
+      <Name>ProjectOno.Assets</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\ProjectOno.Core\ProjectOno.Core.csproj">
       <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
       <Name>ProjectOno.Core</Name>

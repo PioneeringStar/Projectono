@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace ProjectOno.Environment
 {
     public interface IViewModel : IObservable
@@ -17,7 +19,12 @@ namespace ProjectOno.Environment
         public TViewModel CreateChild<TViewModel>()
             where TViewModel : ViewModel
         {
-            var viewmodel = (TViewModel)_container.Resolve(typeof(TViewModel));
+            return (TViewModel)CreateChild(typeof(TViewModel));
+        }
+
+        public ViewModel CreateChild(Type viewmodelType)
+        {
+            var viewmodel = (ViewModel)_container.Resolve(viewmodelType);
             Factory.Configure(viewmodel, _container, this);
             return viewmodel;
         }

@@ -8,7 +8,7 @@ using System.Windows.Input;
 
 namespace ProjectOno.Application.ViewModels
 {
-    public class MainMenu : ViewModel
+    public class MainMenu : PagedViewModel
     {
         protected override void OnReady() { }
 

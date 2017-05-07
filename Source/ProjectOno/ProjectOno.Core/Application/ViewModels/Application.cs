@@ -10,8 +10,8 @@ namespace ProjectOno.Application.ViewModels
 {
 	public class Application : ViewModel
 	{
-        private readonly Stack<IViewModel> ViewStack = new Stack<IViewModel>();
-        public IViewModel CurrentView { get { return Get<IViewModel>(); } private set { Set(value); } }
+        private readonly Stack<PagedViewModel> ViewStack = new Stack<PagedViewModel>();
+        public PagedViewModel CurrentView { get { return Get<PagedViewModel>(); } private set { Set(value); } }
 
         public Application()
         {
@@ -19,7 +19,25 @@ namespace ProjectOno.Application.ViewModels
 
         protected override void OnReady()
         {
-            CurrentView = CreateChild<TestViewModel>();
+            Navigate<Splash>();
+        }
+
+        public void Navigate<TPage>() where TPage : PagedViewModel
+        {
+            Navigate(typeof(TPage));
+        }
+
+        public void Navigate(Type page)
+        {
+            if (CurrentView != null) { ViewStack.Push(CurrentView); }
+            CurrentView = (PagedViewModel)CreateChild(page);
+            CurrentView.OnTerminate += (s, e) => Back();
+            CurrentView.OnNavigation += (s, e) => Navigate(e.PageType);
+        }
+
+        public void Back()
+        {
+            CurrentView = ViewStack.Pop();
         }
     }
 }

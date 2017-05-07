@@ -3,6 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProjectOno.App"
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
-             x:Class="ProjectOno.App.MainPage">
-    <ContentView Content="{env:ViewModelBinding CurrentView}" />
-</ContentPage>
+             x:Class="ProjectOno.App.MainPage"
+             BackgroundColor="Black"
+             Content="{env:ViewModelBinding CurrentView}" />

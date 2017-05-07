@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ProjectOno.Application.ViewModels
 {
-    public class TestViewModel : ViewModel
+    public class TestViewModel : PagedViewModel
     {
         protected override void OnReady() {
             TestText = "Value Appropriately Bound";

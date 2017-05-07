@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:env="clr-namespace:ProjectOno.App.Environment"
+             xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
+             xmlns:view="clr-namespace:ProjectOno.App.Views"
+             x:Class="ProjectOno.App.Views.Splash"             
+             Orientation="Vertical" 
+             VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black">
+    <Image Source="{env:Asset Title.png}" 
+           Opacity="{Binding Fade}"
+           BackgroundColor="Black"/>
+</StackLayout>
