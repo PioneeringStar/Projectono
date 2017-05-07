@@ -5,12 +5,14 @@ Please pay close attention to the rules and guidelines that are outlined in the 
 
 ## Basics
 
-* Please avoid doing any work in the following projects:
+* Please avoid doing work in the following projects:
   * ProjectOno.App.Android
   * ProjectOno.App.iOS
   * ProjectOno.App.UWP
-* Please place ONLY views in the following projects:
+* Please place ONLY views and presentation code in the following projects:
   * ProjectOno.App
+* Please place images and other assets in the following projects:
+  * ProjectOno.Assets
 * Please place all other application code in the following projects:
   * ProjectOno.Core
 
