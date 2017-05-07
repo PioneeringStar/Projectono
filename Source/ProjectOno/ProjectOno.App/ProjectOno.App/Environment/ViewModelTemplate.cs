@@ -5,8 +5,10 @@ using Xamarin.Forms;
 
 namespace ProjectOno.App.Environment
 {
-    public class ViewModelTemplate : DataTemplate
+    [ContentProperty("Template")]
+    public class ViewModelTemplate
     {
-        public Type Type { get; set; }
+        public Type ViewModelType { get; set; }
+        public ControlTemplate Template { get; set; }
     }
 }

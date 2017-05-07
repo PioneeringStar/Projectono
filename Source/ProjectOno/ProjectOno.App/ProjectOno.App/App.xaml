@@ -3,11 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
+             xmlns:view="clr-namespace:ProjectOno.App.Views"
              x:Class="ProjectOno.App.App">
 	<Application.Resources>
         <ResourceDictionary>
-            <env:ViewModelTemplate Type="{x:Type vm:MainMenu}" x:Key="MainMenuView">
-                <Label Text="Oh Xamarin... You are soooooooo far behind in your architecture. Please catch up soon..."/>
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="TestViewModelAssignment">
+                <ControlTemplate>
+                    <StackLayout>
+                        <Label Text="------------------------------------Test Complete!-----------------------------------"/>
+                    </StackLayout>
+                </ControlTemplate>
             </env:ViewModelTemplate>
         </ResourceDictionary>
     </Application.Resources>

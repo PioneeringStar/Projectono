@@ -4,5 +4,5 @@
              xmlns:local="clr-namespace:ProjectOno.App"
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              x:Class="ProjectOno.App.MainPage">
-    <ContentView Content="{env:ViewModelBinding CurrentView}" />
+    <ContentView ControlTemplate="{env:ViewModelBinding CurrentView}" />
 </ContentPage>

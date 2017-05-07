@@ -10,6 +10,8 @@ namespace ProjectOno.Application.ViewModels
 {
     public class MainMenu : ViewModel
     {
+        public string TestText { get { return "This Here Value"; } }
+
         protected override void OnReady() { }
 
         public EventCommand RequestSettings { get { return Get<EventCommand>(); } private set { Set(value); } }

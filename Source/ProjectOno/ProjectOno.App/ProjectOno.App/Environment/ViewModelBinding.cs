@@ -1,6 +1,5 @@
 ﻿using ProjectOno.Environment;
 using System;
-using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
@@ -42,11 +41,11 @@ namespace ProjectOno.App.Environment
                     if (context == null) { return null; }
                     var match = context.Values
                         .OfType<ViewModelTemplate>()
-                        .FirstOrDefault(t => viewmodelType.IsAssignableFrom(t.Type.GetTypeInfo()));
+                        .LastOrDefault(t => viewmodelType.IsAssignableFrom(t.ViewModelType.GetTypeInfo()));
                     return match;
                 });
-                var content = template.CreateContent();
-                return content;
+                if (template == null) { return null; }
+                return template.Template;
             }
 
             public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
