@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:env="clr-namespace:ProjectOno.App.Environment"
+             xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
+             xmlns:view="clr-namespace:ProjectOno.App.Views"
+             x:Class="ProjectOno.App.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
+                <ControlTemplate>
+                    <StackLayout>
+                        <Label Text="------------------------------------Test Starting!-----------------------------------"/>
+                        <Label Text="{Binding TestText}" />
+                        <Label Text="------------------------------------Test Complete!-----------------------------------"/>
+                    </StackLayout>
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
