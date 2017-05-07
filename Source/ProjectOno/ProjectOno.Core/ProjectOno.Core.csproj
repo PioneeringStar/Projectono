@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Application\ViewModels\MainMenu.cs" />
+    <Compile Include="Application\ViewModels\TestViewModel.cs" />
     <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
     <Compile Include="Environment\Command.cs" />
     <Compile Include="Environment\Extensions\ExpressionExtensions.cs" />

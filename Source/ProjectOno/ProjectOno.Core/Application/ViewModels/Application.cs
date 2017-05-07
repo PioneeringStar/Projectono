@@ -19,7 +19,7 @@ namespace ProjectOno.Application.ViewModels
 
         protected override void OnReady()
         {
-            CurrentView = CreateChild<MainMenu>();
+            CurrentView = CreateChild<TestViewModel>();
         }
     }
 }

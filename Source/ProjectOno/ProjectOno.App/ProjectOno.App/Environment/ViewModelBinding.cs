@@ -3,7 +3,9 @@ using System;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
+using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
 namespace ProjectOno.App.Environment
@@ -44,13 +46,19 @@ namespace ProjectOno.App.Environment
                         .LastOrDefault(t => viewmodelType.IsAssignableFrom(t.ViewModelType.GetTypeInfo()));
                     return match;
                 });
-                if (template == null) { return null; }
-                return template.Template;
+
+                if (template == null) { throw new Exception("View not found for ViewModel: " + viewmodelType.AsType().ToString()); }
+
+                return CreateContent(template, viewmodel);
             }
 
-            public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            private object CreateContent(ViewModelTemplate template, IViewModel viewmodel)
             {
-                return null;
+                if (template.ControlTemplate == null) { return null; }
+                var content = template.ControlTemplate.CreateContent() as BindableObject;
+                if (content == null) { throw new Exception("ViewModelTemplates must deliver a BindableObject"); }
+                content.BindingContext = viewmodel;
+                return content;
             }
 
             private ViewModelTemplate SearchContext(VisualElement source, Func<ResourceDictionary, ViewModelTemplate> searcher)
@@ -65,6 +73,11 @@ namespace ProjectOno.App.Environment
                     source = parent as VisualElement;
                 }
                 return searcher(Xamarin.Forms.Application.Current.Resources);
+            }
+
+            public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+            {
+                return null;
             }
         }
     }

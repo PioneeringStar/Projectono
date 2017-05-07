@@ -7,9 +7,11 @@
              x:Class="ProjectOno.App.App">
 	<Application.Resources>
         <ResourceDictionary>
-            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="TestViewModelAssignment">
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
                 <ControlTemplate>
                     <StackLayout>
+                        <Label Text="------------------------------------Test Starting!-----------------------------------"/>
+                        <Label Text="{Binding TestText}" />
                         <Label Text="------------------------------------Test Complete!-----------------------------------"/>
                     </StackLayout>
                 </ControlTemplate>

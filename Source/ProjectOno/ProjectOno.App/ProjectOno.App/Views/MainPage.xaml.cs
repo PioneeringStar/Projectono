@@ -12,7 +12,6 @@ namespace ProjectOno.App
 		public MainPage()
 		{
 			InitializeComponent();
-            var m = this.Content;
 		}
 	}
 }
