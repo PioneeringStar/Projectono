@@ -18,7 +18,7 @@ namespace ProjectOno.Application.ViewModels
                     Fade += 1f / 20f * i;
                 }
                 Task.Delay(TimeSpan.FromSeconds(5)).Wait();
-                Navigate<TestViewModel>();
+                Navigate<MainMenu>();
             });
         }
     }
