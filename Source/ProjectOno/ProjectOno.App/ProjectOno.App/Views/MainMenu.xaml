@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<StackLayout xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ProjectOno.App.Views.MainMenu"             
+             Orientation="Vertical" 
+             VerticalOptions="CenterAndExpand"
+             BackgroundColor="Black"
+             Padding="5">
+    <Button Command="{Binding ViewTestPage}"
+            Text="View The Test Page" />
+    <Button Command="{Binding ViewSettings}"
+            Text="Settings" />
+    <Button Command="{Binding ViewPrint}"
+            Text="Print Something" />
+    <Button Command="{Binding ViewSearch}"
+            Text="Search Thingiverse" />
+    <Button Command="{Binding ExitApp}"
+            Text="Exit The App" />
+</StackLayout>

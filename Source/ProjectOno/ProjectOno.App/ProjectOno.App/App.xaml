@@ -13,14 +13,21 @@
                     <view:Splash />
                 </ControlTemplate>
             </env:ViewModelTemplate>
+
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="MainMenuViewModelAssignment">
+                <ControlTemplate>
+                    <view:MainMenu />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
             
             <!-- This is just a test, inline assignment -->
             <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
                 <ControlTemplate>
-                    <StackLayout>
+                    <StackLayout VerticalOptions="CenterAndExpand">
                         <Label Text="------------------------------------Test Starting!-----------------------------------" TextColor="Red" />
                         <Label Text="{Binding TestText}" TextColor="Red" />
                         <Label Text="------------------------------------Test Complete!-----------------------------------" TextColor="Red" />
+                        <Button Text="&lt; &lt; Back" Command="{Binding CloseTestPage}" />
                     </StackLayout>
                 </ControlTemplate>
             </env:ViewModelTemplate>
