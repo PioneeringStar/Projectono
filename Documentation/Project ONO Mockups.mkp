@@ -1,0 +1,3649 @@
+<?xml version="1.0"?>
+<CanvasElementsCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>
+    <CanvasElements>
+      <PageSetup>
+        <PageName>Page 1</PageName>
+        <Orientation>Landscape</Orientation>
+        <PageSize>A4</PageSize>
+      </PageSetup>
+      <Shapes>
+        <CanvasElement>
+          <ObjectID>cdecf188b6c1431d87b63f8cc5eaf854</ObjectID>
+          <GroupID />
+          <ShapeType>PhonePortrait</ShapeType>
+          <Position>
+            <X>27</X>
+            <Y>17</Y>
+          </Position>
+          <Height>600</Height>
+          <Width>340</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-350</X>
+            <Y>-170</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>971aa60b0a5c4a4f9eba995159984109</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>82</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>120</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>17</TextFontSize>
+          <TextFontWeight>
+            <Weight>700</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>400</X>
+            <Y>-360</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Project ONO</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad8057</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>142</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>400</X>
+            <Y>-40</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Load Sliced Files</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad805722</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>432</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-160</X>
+            <Y>120</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>App Settings</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>910b854d4dc04330a7b48bca38b9938e</ObjectID>
+          <GroupID />
+          <ShapeType>PhonePortrait</ShapeType>
+          <Position>
+            <X>387</X>
+            <Y>17</Y>
+          </Position>
+          <Height>600</Height>
+          <Width>340</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>690</X>
+            <Y>-140</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad80572259</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>502</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-90</X>
+            <Y>120</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Exit App</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad80572258</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>212</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-90</X>
+            <Y>-170</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Start Printing</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d12734ace1ff499d9f95e18fb6231606</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>407</X>
+            <Y>77</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>17</TextFontSize>
+          <TextFontWeight>
+            <Weight>700</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>360</X>
+            <Y>-85</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Project ONO Settings</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d30c2174f84a46cfa125115628054b8f</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>407</X>
+            <Y>112</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>125</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>760</X>
+            <Y>-340</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Default File Source:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>ee7c8975198b464d8b46ae5732b6da7f</ObjectID>
+          <GroupID />
+          <ShapeType>ComboBox</ShapeType>
+          <Position>
+            <X>537</X>
+            <Y>112</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>165</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>840</X>
+            <Y>-190</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Combo Box</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7d39862ccbab458a94fae43eb7a7d18d</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>732</X>
+            <Y>7</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>915</X>
+            <Y>-360</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd500</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>832</X>
+            <Y>7</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Google Drive
+Dropbox
+Onedrive
+Apple iCloud
+Local Device Folder/Directory</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>1170</X>
+            <Y>-545</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>890b886cae4f4a778dc10e4d676f1c32</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>312</Y>
+          </Position>
+          <Height>35</Height>
+          <Width>120</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>770</X>
+            <Y>-120</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Print Start Delay:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d4f1d7cc9cb4488fb9f0ef20037780c4</ObjectID>
+          <GroupID />
+          <ShapeType>TextInput</ShapeType>
+          <Position>
+            <X>537</X>
+            <Y>312</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>160</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>810</X>
+            <Y>-50</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Text Input</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>b179ba8c851e455586b057d1b1b33579</ObjectID>
+          <GroupID />
+          <ShapeType>FieldSet</ShapeType>
+          <Position>
+            <X>412</X>
+            <Y>197</Y>
+          </Position>
+          <Height>90</Height>
+          <Width>300</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>830</X>
+            <Y>-10</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Printer Control</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>a790d7aab9474a55bb48bab1c5c73cf3</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>212</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>120</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>770</X>
+            <Y>-240</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Layer Curing Time:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d4f1d7cc9cb4488fb9f0ef20037780c426</ObjectID>
+          <GroupID />
+          <ShapeType>TextInput</ShapeType>
+          <Position>
+            <X>537</X>
+            <Y>212</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>160</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-70</X>
+            <Y>-140</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Text Input</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>3ae0e6ca677c402287cd4a41a7c8c27d</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>242</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>120</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>770</X>
+            <Y>-190</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Layer Height (µ):</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d4f1d7cc9cb4488fb9f0ef20037780c42619</ObjectID>
+          <GroupID />
+          <ShapeType>TextInput</ShapeType>
+          <Position>
+            <X>537</X>
+            <Y>242</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>160</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-75</X>
+            <Y>-100</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Text Input</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>1e812bf50fe14fad9bee97750ddc3e8b</ObjectID>
+          <GroupID />
+          <ShapeType>Checkbox</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>452</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>180</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>720</X>
+            <Y>-50</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Print Finished Alarm</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>true</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd50073</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>827</X>
+            <Y>377</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Delay in seconds of blank screen before printing starts. This gives the user time to assemble the printer without curing, thereby wasting, resin.</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-55</X>
+            <Y>240</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7d39862ccbab458a94fae43eb7a7d18d66</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>727</X>
+            <Y>382</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-55</X>
+            <Y>245</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7d39862ccbab458a94fae43eb7a7d18d6614</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>727</X>
+            <Y>262</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-55</X>
+            <Y>20</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd5007385</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>827</X>
+            <Y>252</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Dependent on platform control. It might be that this will need to be a dropdown instead with specific layer heights.</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-55</X>
+            <Y>10</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>5c05696e095c48a58da3d198cf7a2982</ObjectID>
+          <GroupID />
+          <ShapeType>FieldSet</ShapeType>
+          <Position>
+            <X>412</X>
+            <Y>302</Y>
+          </Position>
+          <Height>185</Height>
+          <Width>300</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>830</X>
+            <Y>-115</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Application Control</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7bd6e7c6b3084224b13014106320f661</ObjectID>
+          <GroupID />
+          <ShapeType>FieldSet</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>362</Y>
+          </Position>
+          <Height>55</Height>
+          <Width>290</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>835</X>
+            <Y>-125</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Screen Boundaries:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>da203e2c827e4064b0907c5a6d127610</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>427</X>
+            <Y>372</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>65</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>780</X>
+            <Y>-90</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>X:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>61f57c316cc849aa9839b007751e0a06</ObjectID>
+          <GroupID />
+          <ShapeType>TextInput</ShapeType>
+          <Position>
+            <X>447</X>
+            <Y>372</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>105</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>720</X>
+            <Y>-10</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Text Input</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>da203e2c827e4064b0907c5a6d1276103</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>552</X>
+            <Y>372</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>65</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>75</X>
+            <Y>-120</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Y:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>61f57c316cc849aa9839b007751e0a0669</ObjectID>
+          <GroupID />
+          <ShapeType>TextInput</ShapeType>
+          <Position>
+            <X>572</X>
+            <Y>372</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>105</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>75</X>
+            <Y>-120</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Text Input</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7d39862ccbab458a94fae43eb7a7d18d6614</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>722</X>
+            <Y>497</Y>
+          </Position>
+          <Height>120</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-60</X>
+            <Y>140</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd5007368</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>832</X>
+            <Y>502</Y>
+          </Position>
+          <Height>125</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Default to the system reported screen size. Might want to add a border (-10 pixels?) 
+
+Allow user to specifiy print area? If a screen has a crack, that could allow the user to avoid the crack?</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-50</X>
+            <Y>145</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad80572240</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>417</X>
+            <Y>502</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>310</X>
+            <Y>-60</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Return to Main Menu</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd50073859</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>832</X>
+            <Y>137</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Allows for resin curing control. Different resins have different cure times.</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-45</X>
+            <Y>-215</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>7d39862ccbab458a94fae43eb7a7d18d661439</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>732</X>
+            <Y>142</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-50</X>
+            <Y>-445</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>d30c2174f84a46cfa125115628054b8f17</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>407</X>
+            <Y>142</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>95</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-50</X>
+            <Y>-100</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Default Folder:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>e304d40f2bff401b87414e50dbb6278a</ObjectID>
+          <GroupID />
+          <ShapeType>ComboBox</ShapeType>
+          <Position>
+            <X>537</X>
+            <Y>142</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>165</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>890</X>
+            <Y>-180</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Combo Box</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>94c3b3be27f34b0fa00db0921387cdf3</ObjectID>
+          <GroupID />
+          <ShapeType>StickyNote</ShapeType>
+          <Position>
+            <X>832</X>
+            <Y>639.5</Y>
+          </Position>
+          <Height>125</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Do we need a colour picker? Displaying the sliced images with a predominent colour may help curing time dependent on the resin i.e. Blue or red light instead of white?</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Top</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>217</G>
+            <B>101</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>1200</X>
+            <Y>285</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+      </Shapes>
+      <LineShapes>
+        <CanvasLineElement>
+          <ObjectID>3cb41b8351a041119d25a63a0adb6fe5</ObjectID>
+          <LineStartPosition>
+            <X>673.734130859375</X>
+            <Y>135.88430786132813</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>791.7830810546875</X>
+            <Y>66.9281005859375</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+        <CanvasLineElement>
+          <ObjectID>98c12e164de14b7b97f39617f6360337</ObjectID>
+          <LineStartPosition>
+            <X>690.88543701171875</X>
+            <Y>265.89974975585938</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>790.65069580078125</X>
+            <Y>324.46688842773438</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+        <CanvasLineElement>
+          <ObjectID>4cead5f18a754b8bbd99760412321314</ObjectID>
+          <LineStartPosition>
+            <X>702.42742919921875</X>
+            <Y>332.59326171875</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>793.5059814453125</X>
+            <Y>443.10610961914062</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+        <CanvasLineElement>
+          <ObjectID>41b7de2ec2f94cbbacc7c537706f4116</ObjectID>
+          <LineStartPosition>
+            <X>698.6771240234375</X>
+            <Y>403.61605834960938</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>794.85931396484375</X>
+            <Y>561.63861083984375</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+        <CanvasLineElement>
+          <ObjectID>20c435ed783048a8acef45cedd73f15e</ObjectID>
+          <LineStartPosition>
+            <X>685.59228515625</X>
+            <Y>236.19515991210938</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>793.31512451171875</X>
+            <Y>210.98210144042969</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+      </LineShapes>
+      <LineCurvedShapes />
+      <FreeLineShapes>
+        <CanvasFreeLineElement>
+          <ObjectID>bac47e927e374bf6a9b884ecb91844c5</ObjectID>
+          <LineWidth>2</LineWidth>
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <Points />
+        </CanvasFreeLineElement>
+        <CanvasFreeLineElement>
+          <ObjectID>c2074bea13bd40f783dc080db02b577e</ObjectID>
+          <LineWidth>2</LineWidth>
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <Points />
+        </CanvasFreeLineElement>
+        <CanvasFreeLineElement>
+          <ObjectID>e73c3096b69c47aa95a48763cfe1e709</ObjectID>
+          <LineWidth>2</LineWidth>
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <Points />
+        </CanvasFreeLineElement>
+      </FreeLineShapes>
+      <ConnectedShapes />
+    </CanvasElements>
+    <CanvasElements>
+      <PageSetup>
+        <PageName>Page 2</PageName>
+        <Orientation>Landscape</Orientation>
+        <PageSize>A4</PageSize>
+      </PageSetup>
+      <Shapes>
+        <CanvasElement>
+          <ObjectID>9c96d2a41125462cb33869efbb5b2245</ObjectID>
+          <GroupID />
+          <ShapeType>PhonePortrait</ShapeType>
+          <Position>
+            <X>27</X>
+            <Y>52</Y>
+          </Position>
+          <Height>600</Height>
+          <Width>340</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>330</X>
+            <Y>-215</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>4b149b0bd55e42179e0a777f1743e9ca</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>117</Y>
+          </Position>
+          <Height>50</Height>
+          <Width>265</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>17</TextFontSize>
+          <TextFontWeight>
+            <Weight>700</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>400</X>
+            <Y>-335</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Project ONO: 
+Load Sliced Files</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>51e5b7a5b27344ad8a7a8171f150dc93</ObjectID>
+          <GroupID />
+          <ShapeType>ComboBox</ShapeType>
+          <Position>
+            <X>147</X>
+            <Y>177</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>195</Width>
+          <Index>5</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-265</X>
+            <Y>-285</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Combo Box</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>029c9e7b8de443d38531bd78aa94a709</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>177</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>120</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>400</X>
+            <Y>-265</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>File Source:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>029c9e7b8de443d38531bd78aa94a7093</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>207</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>140</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-50</X>
+            <Y>-80</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Select Folder and File:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>b6694bac7d0649e9b0124ff233f94b23</ObjectID>
+          <GroupID />
+          <ShapeType>FolderList</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>232</Y>
+          </Position>
+          <Height>110</Height>
+          <Width>300</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>330</X>
+            <Y>-30</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>First Folder</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>false</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Second Folder</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>false</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>true</IsHeader>
+              <ButtonText>Sub Folder</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>false</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>true</IsHeader>
+              <ButtonText>First File</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>true</IsHeader>
+              <ButtonText>Second File</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>false</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>0fb06df54c1e443e8b69d487931de807</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>247</X>
+            <Y>347</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>590</X>
+            <Y>165</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Load Files</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>693a0962c87142eb98c7f4cf433f5aad</ObjectID>
+          <GroupID />
+          <ShapeType>TextLabel</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>367</Y>
+          </Position>
+          <Height>30</Height>
+          <Width>135</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>400</X>
+            <Y>-95</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Found files in archive:</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>fb0bceda8cf04daa99c1c2afeaad8057224060</ObjectID>
+          <GroupID />
+          <ShapeType>Button</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>542</Y>
+          </Position>
+          <Height>60</Height>
+          <Width>280</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>20</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-410</X>
+            <Y>-90</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Return to Main Menu</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>f3de9d4c55cd40bca74537a809049d01</ObjectID>
+          <GroupID />
+          <ShapeType>ListBox</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>392</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>300</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-425</X>
+            <Y>-20</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>First Item</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Second Item</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>true</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Third Item</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+            <LinkWizardRecord>
+              <Row>0</Row>
+              <Column>0</Column>
+              <IsHeader>false</IsHeader>
+              <ButtonText>Fourth Item</ButtonText>
+              <IsSelected>false</IsSelected>
+              <IsMultiSelected>false</IsMultiSelected>
+              <IsDisabled>false</IsDisabled>
+              <ShowBorder>true</ShowBorder>
+            </LinkWizardRecord>
+          </LinkWizText>
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>false</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd50010</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>532</X>
+            <Y>57</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Google Drive
+Dropbox
+Onedrive
+Apple iCloud
+Local Device Folder/Directory</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-350</X>
+            <Y>-80</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>f2df9a0fefc64507b65e44ca146540b1</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>432</X>
+            <Y>57</Y>
+          </Position>
+          <Height>95</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>615</X>
+            <Y>-210</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>decac1de68fc4aae97aebd8a10ce3d46</ObjectID>
+          <GroupID />
+          <ShapeType>VerticalCurlyLeft</ShapeType>
+          <Position>
+            <X>422</X>
+            <Y>357</Y>
+          </Position>
+          <Height>90</Height>
+          <Width>100</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>605</X>
+            <Y>90</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>108f58c932f84b5c8545a07128fdd5001031</ObjectID>
+          <GroupID />
+          <ShapeType>TextBox</ShapeType>
+          <Position>
+            <X>527</X>
+            <Y>357</Y>
+          </Position>
+          <Height>100</Height>
+          <Width>205</Width>
+          <Index>0</Index>
+          <Text>Just list what was found in the archive so the user can see the files. </Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>-55</X>
+            <Y>170</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+      </Shapes>
+      <LineShapes>
+        <CanvasLineElement>
+          <ObjectID>40d57d9143ac4c959e7a8942f09867e1</ObjectID>
+          <LineStartPosition>
+            <X>359.71334838867188</X>
+            <Y>188.82682800292969</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>501.12838745117188</X>
+            <Y>108.80881500244141</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+        <CanvasLineElement>
+          <ObjectID>a9480a15227c4e68982e5c395888e86f</ObjectID>
+          <LineStartPosition>
+            <X>337.53775024414062</X>
+            <Y>410.29132080078125</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>487.53762817382812</X>
+            <Y>410.29132080078125</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+      </LineShapes>
+      <LineCurvedShapes />
+      <FreeLineShapes />
+      <ConnectedShapes />
+    </CanvasElements>
+    <CanvasElements>
+      <PageSetup>
+        <PageName>Page 3</PageName>
+        <Orientation>Landscape</Orientation>
+        <PageSize>A4</PageSize>
+      </PageSetup>
+      <Shapes>
+        <CanvasElement>
+          <ObjectID>c2d0ad619cd245fa863c53cd5895afff</ObjectID>
+          <GroupID />
+          <ShapeType>PhonePortrait</ShapeType>
+          <Position>
+            <X>47</X>
+            <Y>42</Y>
+          </Position>
+          <Height>600</Height>
+          <Width>340</Width>
+          <Index>-3</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>350</X>
+            <Y>145</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>55876c64709d4f4ab086c5b98f4fe0ec</ObjectID>
+          <GroupID />
+          <ShapeType>ImagePlaceholder</ShapeType>
+          <Position>
+            <X>57</X>
+            <Y>72</Y>
+          </Position>
+          <Height>530</Height>
+          <Width>320</Width>
+          <Index>0</Index>
+          <Text />
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Center</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>0</A>
+            <R>255</R>
+            <G>255</G>
+            <B>255</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>345</X>
+            <Y>-160</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+        <CanvasElement>
+          <ObjectID>dff321f0ee8f4b16bd3c626d2cbaadef</ObjectID>
+          <GroupID />
+          <ShapeType>StickyNote</ShapeType>
+          <Position>
+            <X>502</X>
+            <Y>69.5</Y>
+          </Position>
+          <Height>250</Height>
+          <Width>295</Width>
+          <Index>0</Index>
+          <Text>Printing area must be full screen.
+
+All button lights must be turned off
+
+Application should detect large light change and use that to abort-printing. The phone will be in darkness until the app starts showing images. There will be a certain amount of light, but removing the phone from the printer should result in a huge light change. Movement could also be detected as an abort signal, along with a physical button press.</Text>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <TextHorizontalAlignment>Left</TextHorizontalAlignment>
+          <TextVerticalAlignment>Center</TextVerticalAlignment>
+          <Background>
+            <A>255</A>
+            <R>255</R>
+            <G>217</G>
+            <B>101</B>
+          </Background>
+          <Foreground>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </Foreground>
+          <TextEndPoint>
+            <X>870</X>
+            <Y>-355</Y>
+          </TextEndPoint>
+          <ClassText />
+          <ClassText2 />
+          <ClassText3 />
+          <AccordianWizText />
+          <LinkWizText />
+          <ShowHeader>true</ShowHeader>
+          <ShowScrollBar>true</ShowScrollBar>
+          <ShowVertBrd>true</ShowVertBrd>
+          <ShowHorBrd>false</ShowHorBrd>
+          <ShowMinimize>true</ShowMinimize>
+          <ShowMaximize>true</ShowMaximize>
+          <ShowClose>true</ShowClose>
+          <IsLocked>false</IsLocked>
+          <ShapeBorderType>CleanThin</ShapeBorderType>
+          <SliderValue>0</SliderValue>
+          <IsControlDisabled>false</IsControlDisabled>
+          <ShapeTabBarType>HorizontalTop</ShapeTabBarType>
+        </CanvasElement>
+      </Shapes>
+      <LineShapes>
+        <CanvasLineElement>
+          <ObjectID>8bb9e4139a934ced8a346451f0798c10</ObjectID>
+          <LineStartPosition>
+            <X>353.63436889648438</X>
+            <Y>174.32368469238281</Y>
+          </LineStartPosition>
+          <LineEndPosition>
+            <X>503.63427734375</X>
+            <Y>174.32368469238281</Y>
+          </LineEndPosition>
+          <Text />
+          <LineColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </LineColor>
+          <TextColor>
+            <A>255</A>
+            <R>0</R>
+            <G>0</G>
+            <B>0</B>
+          </TextColor>
+          <TextFontSize>13</TextFontSize>
+          <TextFontWeight>
+            <Weight>400</Weight>
+          </TextFontWeight>
+          <LineWidth>2</LineWidth>
+          <Direction>BothFlat</Direction>
+          <SepType>None</SepType>
+        </CanvasLineElement>
+      </LineShapes>
+      <LineCurvedShapes />
+      <FreeLineShapes />
+      <ConnectedShapes />
+    </CanvasElements>
+  </Pages>
+  <MockyVersion>1.4</MockyVersion>
+</CanvasElementsCollection>
