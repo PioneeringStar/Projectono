@@ -1,7 +1,7 @@
 ﻿using ProjectOno.Environment;
 using System.IO;
 
-namespace ProjectOno.Application.ViewModels.FileLocators
+namespace ProjectOno.Application.ViewModels.Locators
 {
     public interface IFileLocator : IViewModel
     {

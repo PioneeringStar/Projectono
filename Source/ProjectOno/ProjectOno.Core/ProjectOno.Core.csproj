@@ -36,8 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Application\Providers\IDocumentProvider.cs" />
-    <Compile Include="Application\ViewModels\FileLocators\FileLocator.cs" />
-    <Compile Include="Application\ViewModels\FileLocators\TestLocator.cs" />
+    <Compile Include="Application\ViewModels\Locators\FileLocator.cs" />
+    <Compile Include="Application\ViewModels\Locators\WebLocator.cs" />
     <Compile Include="Application\ViewModels\LocateFile.cs" />
     <Compile Include="Application\ViewModels\MainMenu.cs" />
     <Compile Include="Application\ViewModels\PagedViewModel.cs" />

@@ -1,5 +1,5 @@
 ﻿using ProjectOno.Application.Providers;
-using ProjectOno.Application.ViewModels.FileLocators;
+using ProjectOno.Application.ViewModels.Locators;
 using ProjectOno.Environment;
 using System.IO;
 

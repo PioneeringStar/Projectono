@@ -3,26 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
+             xmlns:locatorVms="clr-namespace:ProjectOno.Application.ViewModels.Locators;assembly=ProjectOno.Core"
              xmlns:view="clr-namespace:ProjectOno.App.Views"
+             xmlns:locatorViews="clr-namespace:ProjectOno.App.Views.Locators"
              x:Class="ProjectOno.App.App">
 	<Application.Resources>
         <ResourceDictionary>
             <!-- Global assignments of views to view-models should be configured here -->
-            <env:ViewModelTemplate ViewModelType="{x:Type vm:Splash}" x:Key="SplashViewModelAssignment">
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:Splash}" x:Key="ViewForSplash">
                 <ControlTemplate>
                     <view:Splash />
                 </ControlTemplate>
             </env:ViewModelTemplate>
 
-            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="MainMenuViewModelAssignment">
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="ViewForMainMenu">
                 <ControlTemplate>
                     <view:MainMenu />
                 </ControlTemplate>
             </env:ViewModelTemplate>
 
-            <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="FileLocatorSelection">
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="ViewForLocatorSelection">
                 <ControlTemplate>
                     <view:LocateFile />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
+            <!-- Locator Views -->
+            <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:WebLocator}" x:Key="ViewForWebFileLocator">
+                <ControlTemplate>
+                    <locatorViews:WebLocator />
                 </ControlTemplate>
             </env:ViewModelTemplate>
             

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="ProjectOno.App.Views.Locators.WebLocator"
+             >
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="FillAndExpand">
+            <Button Text="&lt;"
+                    Command="{Binding NavigateBack}" />
+            <Button Text="X"
+                    Command="{Binding FindCancelled}" />
+            <Entry Text="{Binding Url}"
+                   TextColor="Beige"/>
+        </StackLayout>
+        <WebView x:Name="WebView"/>
+    </StackLayout>
+</ContentView>

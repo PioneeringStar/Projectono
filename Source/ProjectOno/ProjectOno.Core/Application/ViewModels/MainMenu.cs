@@ -13,18 +13,18 @@ namespace ProjectOno.Application.ViewModels
     {
         protected override void OnReady() { }
 
-        public EventCommand ViewTestPage { get { return Get<EventCommand>(); } private set { Set(value); } }
         public EventCommand StartPrint { get { return Get<EventCommand>(); } private set { Set(value); } }
+        public EventCommand Settings { get { return Get<EventCommand>(); } private set { Set(value); } }
 
         public MainMenu(IPlatformAdaptor platform)
         {
             BackText = "Quit";
-            ViewTestPage = new EventCommand();
             StartPrint = new EventCommand();
+            Settings = new EventCommand();
             Back = new EventCommand();
 
-            ViewTestPage.CommandExecuted += (s, e) => Navigate<TestViewModel>();
             StartPrint.CommandExecuted += (s, e) => Navigate<LocateFile>();
+            Settings.CommandExecuted += (s, e) => Navigate<TestViewModel>();
             Back.CommandExecuted += (s, e) => platform.QuitApplication();
         }
     }

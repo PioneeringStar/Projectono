@@ -26,16 +26,6 @@
                             </ListView.ItemTemplate>
                         </ListView>
                     </StackLayout>
-                    <!-- 
-                    <ListView ItemsSource="{Binding Locators}">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <Button Text="{Binding Name}"
-                                        Command="{Binding Start}" />
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                    -->
                 </ControlTemplate>
             </env:ViewModelTemplate>
         </ResourceDictionary>
