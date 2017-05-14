@@ -13,6 +13,12 @@ namespace ProjectOno.App.Views
 		public Splash ()
 		{
 			InitializeComponent ();
+			Animate();
+		}
+
+		public async void Animate() {
+			await LogoImage.FadeTo(1d, 500, Easing.SinOut);
+			await LogoImage.FadeTo(1d, 500, Easing.SinOut);
 		}
 	}
 }

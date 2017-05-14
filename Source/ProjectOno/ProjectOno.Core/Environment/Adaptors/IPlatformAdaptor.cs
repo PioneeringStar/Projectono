@@ -11,6 +11,7 @@ namespace ProjectOno.Environment.Adaptors
     /// </summary>
     public interface IPlatformAdaptor
     {
-        bool FullScreenEnabled { get; set; }
+        void SetFullScreen(bool value);
+        void QuitApplication();
     }
 }
