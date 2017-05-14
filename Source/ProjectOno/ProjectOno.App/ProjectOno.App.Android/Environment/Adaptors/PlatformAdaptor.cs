@@ -1,24 +1,24 @@
+using System;
 using Android.App;
 using Android.Views;
 using Xamarin.Forms;
+using ProjectOno.Environment;
+using ProjectOno.Environment.Adaptors;
 
-namespace ProjectOno.Environment.Adaptors
+namespace ProjectOno.App.Environment.Adaptors
 {
+    [Dependency.Transient]
     public class PlatformAdaptor : IPlatformAdaptor
     {
-        private readonly WindowManagerFlags FullscreenFlag = WindowManagerFlags.Fullscreen;
-        public bool FullScreenEnabled {
-            get {
-                return (((Activity)Forms.Context).Window.Attributes.Flags & FullscreenFlag) == FullscreenFlag;
-            }
-            set {
-                var attributes = ((Activity)Forms.Context).Window.Attributes;
-                attributes.Flags = value
-                    ? attributes.Flags | FullscreenFlag
-                    : attributes.Flags & ~FullscreenFlag;
-                Forms.SetTitleBarVisibility(value ? AndroidTitleBarVisibility.Never : AndroidTitleBarVisibility.Default);
-                //TODO: Figure out how to hide the action bar
-            }
+
+        public void QuitApplication()
+        {
+            ((Activity)Forms.Context).FinishAffinity();
+        }
+
+        public void SetFullScreen(bool value)
+        {
+            throw new NotImplementedException();
         }
     }
 }

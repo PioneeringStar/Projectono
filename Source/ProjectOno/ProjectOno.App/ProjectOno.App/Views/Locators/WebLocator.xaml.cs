@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Views
+namespace ProjectOno.App.Views.Locators
 {
-    public partial class MainMenu : ContentView
+	public partial class WebLocator : ContentView
 	{
-		public MainMenu ()
+
+		public WebLocator ()
 		{
 			InitializeComponent ();
+            
 		}
 	}
 }

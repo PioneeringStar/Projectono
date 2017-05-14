@@ -9,6 +9,17 @@ namespace ProjectOno.Application.ViewModels
 {
     public abstract class PagedViewModel : ViewModel
     {
+        public EventCommand Back { get { return Get<EventCommand>(); } protected set { Set(value); } }
+
+        public string BackText { get { return Get<string>(); } set { Set(value); } }
+
+        public PagedViewModel()
+        {
+            Back = new EventCommand();
+            Back.CommandExecuted += (s, e) => Terminate();
+            BackText = "<< Back";
+        }
+
         protected virtual void Terminate() {
             if (OnTerminate != null) { OnTerminate(this, null); }
         }

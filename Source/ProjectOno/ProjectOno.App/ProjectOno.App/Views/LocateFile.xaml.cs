@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace ProjectOno.App.Views
 {
-    public partial class MainMenu : ContentView
+	public partial class LocateFile : ContentView
 	{
-		public MainMenu ()
+		public LocateFile ()
 		{
 			InitializeComponent ();
 		}

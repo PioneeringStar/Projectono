@@ -1,18 +1,21 @@
+using ProjectOno.Environment;
+using ProjectOno.Environment.Adaptors;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Threading;
 
-using Foundation;
-using UIKit;
-
-namespace ProjectOno.Environment.Adaptors
+namespace ProjectOno.App.Environment.Adaptors
 {
+    [Dependency.Transient]
     public class PlatformAdaptor : IPlatformAdaptor
     {
-        public bool FullScreenEnabled {
-            get { return UIApplication.SharedApplication.StatusBarHidden; }
-            set { UIApplication.SharedApplication.StatusBarHidden = value; }
+        public void QuitApplication()
+        {
+            Thread.CurrentThread.Abort();
+        }
+
+        public void SetFullScreen(bool value)
+        {
+            throw new NotImplementedException();
         }
     }
 }

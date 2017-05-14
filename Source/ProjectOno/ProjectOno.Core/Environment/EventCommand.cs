@@ -9,6 +9,11 @@ namespace ProjectOno.Environment
 {
     public class EventCommand : ICommand
     {
+        private readonly object _sender;
+
+        public EventCommand() { _sender = this; }
+        public EventCommand(object sender) { _sender = sender; }
+
         public event EventHandler CanExecuteChanged;
 
         public bool CanExecute(object parameter)
@@ -18,7 +23,7 @@ namespace ProjectOno.Environment
 
         public void Execute(object parameter)
         {
-            if (ExecuteCommand != null) { ExecuteCommand(this, null); }
+            if (ExecuteCommand != null) { ExecuteCommand(_sender, null); }
         }
 
         private event EventHandler ExecuteCommand;
@@ -28,11 +33,11 @@ namespace ProjectOno.Environment
             add {
                 var changed = ExecuteCommand == null;
                 ExecuteCommand += value;
-                if (changed && CanExecuteChanged != null) { CanExecuteChanged(this, null); }
+                if (changed && CanExecuteChanged != null) { CanExecuteChanged(_sender, null); }
             }
             remove {
                 ExecuteCommand -= value;
-                if (ExecuteCommand == null && CanExecuteChanged != null) { CanExecuteChanged(this, null); }
+                if (ExecuteCommand == null && CanExecuteChanged != null) { CanExecuteChanged(_sender, null); }
             }
         }
     }

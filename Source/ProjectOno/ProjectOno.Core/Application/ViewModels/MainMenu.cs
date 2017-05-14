@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using ProjectOno.Environment.Adaptors;
 
 namespace ProjectOno.Application.ViewModels
 {
@@ -12,26 +13,19 @@ namespace ProjectOno.Application.ViewModels
     {
         protected override void OnReady() { }
 
-        public EventCommand ViewTestPage { get { return Get<EventCommand>(); } private set { Set(value); } }
-        public EventCommand ViewSettings { get { return Get<EventCommand>(); } private set { Set(value); } }
-        public EventCommand ViewPrint { get { return Get<EventCommand>(); } private set { Set(value); } }
-        public EventCommand ViewSearch { get { return Get<EventCommand>(); } private set { Set(value); } }
-        public EventCommand ExitApp { get { return Get<EventCommand>(); } private set { Set(value); } }
+        public EventCommand StartPrint { get { return Get<EventCommand>(); } private set { Set(value); } }
+        public EventCommand Settings { get { return Get<EventCommand>(); } private set { Set(value); } }
 
-        public MainMenu()
+        public MainMenu(IPlatformAdaptor platform)
         {
-            ViewTestPage = new EventCommand();
-            ViewSettings = new EventCommand();
-            ViewPrint = new EventCommand();
-            ViewSearch = new EventCommand();
-            ExitApp = new EventCommand();
+            BackText = "Quit";
+            StartPrint = new EventCommand();
+            Settings = new EventCommand();
+            Back = new EventCommand();
 
-            ViewTestPage.CommandExecuted += (s, e) => Navigate<TestViewModel>();
-            ViewSettings.CommandExecuted += (s, e) => Navigate<TestViewModel>();
-            ViewPrint.CommandExecuted += (s, e) => Navigate<TestViewModel>();
-            ViewSearch.CommandExecuted += (s, e) => Navigate<TestViewModel>();
-
-            // ExitApp.CommandExecuted += (s, e) => // TODO: Create an application exit dependency
+            StartPrint.CommandExecuted += (s, e) => Navigate<LocateFile>();
+            Settings.CommandExecuted += (s, e) => Navigate<TestViewModel>();
+            Back.CommandExecuted += (s, e) => platform.QuitApplication();
         }
     }
 }
