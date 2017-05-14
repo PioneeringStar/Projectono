@@ -12,6 +12,20 @@
         <ResourceDictionary>
             <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="SelectFileLocator">
                 <ControlTemplate>
+                    <StackLayout VerticalOptions="FillAndExpand">
+                        <Label Text="Select a source:"
+                               TextColor="LightGray" />
+                        <ListView ItemsSource="{Binding Locators}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Button Text="{Binding Name}" 
+                                                Command="{Binding Start}"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
                     <!-- 
                     <ListView ItemsSource="{Binding Locators}">
                         <ListView.ItemTemplate>
@@ -22,7 +36,6 @@
                         </ListView.ItemTemplate>
                     </ListView>
                     -->
-                    <Label Text="Test" TextColor="White" FontSize="Large" />
                 </ControlTemplate>
             </env:ViewModelTemplate>
         </ResourceDictionary>

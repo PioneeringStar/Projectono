@@ -61,7 +61,7 @@ namespace ProjectOno.App.Environment
                     content.BindingContext = viewmodel;
                     return content;
                 } catch (Exception e) {
-                    throw e;
+                    throw e; // This exposes XAML errors to help debugging
                 }
             }
 
