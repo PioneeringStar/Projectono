@@ -4,8 +4,8 @@
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
              xmlns:view="clr-namespace:ProjectOno.App.Views"
-             x:Class="ProjectOno.App.Views.Splash"             
-             Orientation="Vertical" 
+             x:Class="ProjectOno.App.Views.Splash"  
+             Orientation="Vertical"
              VerticalOptions="CenterAndExpand"
              BackgroundColor="Black"
              OnReady="{Binding ViewReady}">

@@ -2,32 +2,14 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ProjectOno.App.Views.MainMenu"             
-             Orientation="Vertical" 
-             VerticalOptions="CenterAndExpand"
              BackgroundColor="Black"
-             Padding="5">
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="100" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-    </Grid>
+             Padding="5"
+             Style="{DynamicResource PageLayout}">
     <StackLayout Grid.Row="0"
                  Grid.Column="0">
-        <Label Text="ProjectOno" 
-               FontSize="Large"/>
         <Button Command="{Binding ViewTestPage}"
                 Text="View The Test Page" />
         <Button Command="{Binding StartPrint}"
                 Text="Print Something" />
-    </StackLayout>
-
-    <StackLayout Grid.Row="1"
-                 Grid.Column="0">
-        <Button Command="{Binding ExitApp}"
-                Text="Exit The App" />
     </StackLayout>
 </ContentView>

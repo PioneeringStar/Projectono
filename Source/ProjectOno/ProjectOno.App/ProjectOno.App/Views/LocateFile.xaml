@@ -10,9 +10,18 @@
         <ResourceDictionary>
             <env:ViewModelTemplate ViewModelType="{x:Type vm:FileLocatorSelector}" x:Key="SelectFileLocator">
                 <ControlTemplate>
-                    <StackLayout>
-                        
-                    </StackLayout>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="100" />
+                        </Grid.RowDefinitions>
+                        <ListView ItemsSource="{Binding }">
+
+                        </ListView>
+                    </Grid>
                 </ControlTemplate>
             </env:ViewModelTemplate>
         </ResourceDictionary>

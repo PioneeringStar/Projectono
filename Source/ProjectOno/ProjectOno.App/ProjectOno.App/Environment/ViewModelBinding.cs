@@ -55,10 +55,14 @@ namespace ProjectOno.App.Environment
             private object CreateContent(ViewModelTemplate template, IViewModel viewmodel)
             {
                 if (template.ControlTemplate == null) { return null; }
-                var content = template.ControlTemplate.CreateContent() as BindableObject;
-                if (content == null) { throw new Exception("ViewModelTemplates must deliver a BindableObject"); }
-                content.BindingContext = viewmodel;
-                return content;
+                try {
+                    var content = template.ControlTemplate.CreateContent() as BindableObject;
+                    if (content == null) { throw new Exception("ViewModelTemplates must deliver a BindableObject"); }
+                    content.BindingContext = viewmodel;
+                    return content;
+                } catch (Exception e) {
+                    throw e;
+                }
             }
 
             private ViewModelTemplate SearchContext(VisualElement source, Func<ResourceDictionary, ViewModelTemplate> searcher)
