@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace ProjectOno.App.Views
 {
-	public partial class MainMenu : StackLayout
+    public partial class MainMenu : ContentView
 	{
 		public MainMenu ()
 		{
