@@ -19,16 +19,23 @@
                     <view:MainMenu />
                 </ControlTemplate>
             </env:ViewModelTemplate>
+
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="FileLocatorSelection">
+                <ControlTemplate>
+                    <view:LocateFile />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
             
             <!-- This is just a test, inline assignment -->
             <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
                 <ControlTemplate>
-                    <StackLayout VerticalOptions="CenterAndExpand">
-                        <Label Text="------------------------------------Test Starting!-----------------------------------" TextColor="Red" />
-                        <Label Text="{Binding TestText}" TextColor="Red" />
-                        <Label Text="------------------------------------Test Complete!-----------------------------------" TextColor="Red" />
-                        <Button Text="&lt; &lt; Back" Command="{Binding CloseTestPage}" />
-                    </StackLayout>
+                    <ContentView Style="{DynamicResource PageLayout}">
+                        <StackLayout VerticalOptions="CenterAndExpand">
+                            <Label Text="------------------------------------Test Starting!-----------------------------------" TextColor="Red" />
+                            <Label Text="{Binding TestText}" TextColor="Red" />
+                            <Label Text="------------------------------------Test Complete!-----------------------------------" TextColor="Red" />
+                        </StackLayout>
+                    </ContentView>
                 </ControlTemplate>
             </env:ViewModelTemplate>
             
@@ -53,7 +60,8 @@
                                                TextColor="White"
                                                Text="PROJECTONO"/>
                                         <ScrollView>
-                                            <ContentView Content="{TemplateBinding Content}" />
+                                            <ContentView Content="{TemplateBinding Content}" 
+                                                         BindingContext="{TemplateBinding BindingContext}"/>
                                         </ScrollView>
                                     </StackLayout>
                                     <StackLayout Grid.Row="1"

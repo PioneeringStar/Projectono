@@ -4,24 +4,25 @@
              x:Class="ProjectOno.App.Views.LocateFile"
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
+             xmlns:locators="clr-namespace:ProjectOno.Application.ViewModels.FileLocators;assembly=ProjectOno.Core"
              BackgroundColor="Black" 
-             Content="{env:ViewModelBinding Layout}">
+             Content="{env:ViewModelBinding Layout}"
+             Style="{DynamicResource PageLayout}">
     <ContentView.Resources>
         <ResourceDictionary>
-            <env:ViewModelTemplate ViewModelType="{x:Type vm:FileLocatorSelector}" x:Key="SelectFileLocator">
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="SelectFileLocator">
                 <ControlTemplate>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="100" />
-                        </Grid.RowDefinitions>
-                        <ListView ItemsSource="{Binding }">
-
-                        </ListView>
-                    </Grid>
+                    <!-- 
+                    <ListView ItemsSource="{Binding Locators}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Button Text="{Binding Name}"
+                                        Command="{Binding Start}" />
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                    -->
+                    <Label Text="Test" TextColor="White" FontSize="Large" />
                 </ControlTemplate>
             </env:ViewModelTemplate>
         </ResourceDictionary>

@@ -1,4 +1,5 @@
 ﻿using ProjectOno.Application.Providers;
+using ProjectOno.Application.ViewModels.FileLocators;
 using ProjectOno.Environment;
 using System.IO;
 
@@ -8,17 +9,15 @@ namespace ProjectOno.Application.ViewModels
     {
         protected override void OnReady() { }
 
-        public FileLocator[] Locators { get { return Get<FileLocator[]>(); } set { Set(value); } }
+        public IFileLocator[] Locators { get { return Get<IFileLocator[]>(); } set { Set(value); } }
 
         public IViewModel Layout { get { return Get<IViewModel>(); } set { Set(value); } }
 
-        private readonly FileLocatorSelector _selectorLayout = new FileLocatorSelector();
         private readonly IDocumentProvider _document;
 
-        public LocateFile(FileLocator[] locators, IDocumentProvider document)
+        public LocateFile(IFileLocator[] locators, IDocumentProvider document)
         {
             _document = document;
-            _selectorLayout.Locators = locators;
             foreach (var locator in locators) {
                 locator.Reset();
                 locator.Start.CommandExecuted += (s, e) => StartLocator(locator);
@@ -29,7 +28,7 @@ namespace ProjectOno.Application.ViewModels
             ShowMenu();
         }
 
-        private void StartLocator(FileLocator locator)
+        private void StartLocator(IFileLocator locator)
         {
             locator.Reset();
             Layout = locator;
@@ -37,39 +36,15 @@ namespace ProjectOno.Application.ViewModels
 
         private void ShowMenu()
         {
-            Layout = _selectorLayout;
+            Layout = this;
         }
 
-        private void PrintFile(FileLocator locator)
+        private void PrintFile(IFileLocator locator)
         {
             _document.File = locator.SelectedFileName;
             _document.Content = locator.SelectedFileContent;
             Navigate<PrintDocument>();
         }
 
-    }
-
-    public abstract class FileLocator : ViewModel
-    {
-        public string Name { get { return Get<string>(); } set { Set(value); } }
-        public string SelectedFileName { get { return Get<string>(); } set { Set(value); } }
-        public Stream SelectedFileContent { get { return Get<Stream>(); } set { Set(value); } }
-        public EventCommand Start { get { return Get<EventCommand>(); } set { Set(value); } }
-        public EventCommand FileFound { get { return Get<EventCommand>(); } set { Set(value); } }
-        public EventCommand FindCancelled { get { return Get<EventCommand>(); } set { Set(value); } }
-        public abstract void Reset();
-
-        protected FileLocator()
-        {
-            Start = new EventCommand(this);
-            FileFound = new EventCommand(this);
-            FindCancelled = new EventCommand(this);
-        }
-    }
-
-    public class FileLocatorSelector : ViewModel
-    {
-        protected override void OnReady() { }
-        public FileLocator[] Locators { get { return Get<FileLocator[]>(); } set { Set(value); } }
     }
 }
