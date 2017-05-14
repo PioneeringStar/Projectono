@@ -35,12 +35,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Application\Providers\IDocumentProvider.cs" />
+    <Compile Include="Application\ViewModels\LocateFile.cs" />
     <Compile Include="Application\ViewModels\MainMenu.cs" />
     <Compile Include="Application\ViewModels\PagedViewModel.cs" />
+    <Compile Include="Application\ViewModels\PrintDocument.cs" />
     <Compile Include="Application\ViewModels\Splash.cs" />
     <Compile Include="Application\ViewModels\TestViewModel.cs" />
     <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
-    <Compile Include="Environment\Command.cs" />
+    <Compile Include="Environment\EventCommand.cs" />
     <Compile Include="Environment\Extensions\ExpressionExtensions.cs" />
     <Compile Include="Environment\Extensions\ObservableExtensions.cs" />
     <Compile Include="Environment\IocContainer.cs" />

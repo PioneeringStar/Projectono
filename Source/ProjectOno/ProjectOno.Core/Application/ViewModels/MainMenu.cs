@@ -24,7 +24,7 @@ namespace ProjectOno.Application.ViewModels
             ExitApp = new EventCommand();
 
             ViewTestPage.CommandExecuted += (s, e) => Navigate<TestViewModel>();
-            StartPrint.CommandExecuted += (s, e) => Navigate<TestViewModel>();
+            StartPrint.CommandExecuted += (s, e) => Navigate<LocateFile>();
             ExitApp.CommandExecuted += (s, e) => platform.QuitApplication();
         }
     }
