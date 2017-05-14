@@ -5,7 +5,7 @@ using Xamarin.Forms;
 using ProjectOno.Environment;
 using ProjectOno.Environment.Adaptors;
 
-namespace ProjectOno.Environment.Adaptors
+namespace ProjectOno.App.Environment.Adaptors
 {
     [Dependency.Transient]
     public class PlatformAdaptor : IPlatformAdaptor

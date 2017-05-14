@@ -21,7 +21,6 @@ namespace ProjectOno.App
 			InitializeComponent();
 
             _container = new IocContainer();
-            _container.AddSingleton(typeof(IPlatformAdaptor), typeof(PlatformAdaptor));
             Bootstrap.ReflectDependencies(_container, typeof(App).GetTypeInfo().Assembly);
             
 			MainPage = new MainPage {

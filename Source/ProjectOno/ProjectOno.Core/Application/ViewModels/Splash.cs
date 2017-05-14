@@ -1,15 +1,16 @@
 ﻿using ProjectOno.Environment;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectOno.Application.ViewModels
 {
     public class Splash : PagedViewModel
     {
-        protected override void OnReady() {
+        public EventCommand ViewReady { get { return Get<EventCommand>(); } set { Set(value); } }
+
+        public Splash() {
+            ViewReady = new EventCommand();
+            ViewReady.CommandExecuted += (s, e) => Navigate<MainMenu>();
         }
+
+        protected override void OnReady() { }
     }
 }

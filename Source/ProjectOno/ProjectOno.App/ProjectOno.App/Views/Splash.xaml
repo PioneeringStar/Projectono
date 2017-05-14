@@ -7,9 +7,9 @@
              x:Class="ProjectOno.App.Views.Splash"             
              Orientation="Vertical" 
              VerticalOptions="CenterAndExpand"
-             BackgroundColor="Black">
+             BackgroundColor="Black"
+             OnReady="{Binding ViewReady}">
     <Image Source="{env:Asset Title.png}" 
            Opacity="0"
-           BackgroundColor="Black"
-		   x:Name="LogoImage"/>
+		   x:Name="SplashImage"/>
 </StackLayout>
