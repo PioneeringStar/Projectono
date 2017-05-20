@@ -41,9 +41,13 @@ namespace ProjectOno.Application.ViewModels
 
         private void PrintFile(IFileLocator locator)
         {
+            Layout = CreateChild<FileLocatorLoadStatus>();
             _document.File = locator.SelectedFileName;
-            _document.Content = locator.SelectedFileContent;
-            Navigate<PrintDocument>();
+            _document.SetFileContent(locator.SelectedFileContent)
+                     .ContinueWith(x => {
+                         Navigate<PrintDocument>();
+                         Layout = this;
+			         });
         }
 
     }

@@ -55,6 +55,7 @@
     <Compile Include="Environment\Dependency.cs" />
     <Compile Include="Bootstrap.cs" />
     <Compile Include="Application\ViewModels\Application.cs" />
+    <Compile Include="Application\ViewModels\Locators\FileLocatorLoadStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

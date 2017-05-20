@@ -17,16 +17,16 @@ namespace ProjectOno.App.Views
 		public Splash ()
 		{
 			InitializeComponent ();
-            Animate();
+            TryAnimate();
 		}
 
         // Xamarin developer's official (apparently) stance on adding an event to let you know when a view lifecycle is complete and is showing on the screen is "You shouldn't need that". So we are going to be a little messy here...
         // https://forums.xamarin.com/discussion/29714/is-there-an-event-that-fires-after-a-page-is-showed
-        public void Animate() {
+        public void TryAnimate() {
             if (SplashImage == null || OnReady == null) {
                 Task.Factory.StartNew(() => {
                     Task.Delay(TimeSpan.FromSeconds(1)).Wait();
-                    Animate();
+                    TryAnimate();
                 });
             } else {
                 SplashImage.Opacity = 0d;
