@@ -8,7 +8,8 @@ We, the community, believe we can do better!
 
 ## Support
 
-This project will start with support for iOS, Android, and Windows base mobile devices.
+This project will start with support for iOS, Android, and Windows base mobile devices. Limitations within Xamarin dictate the minimum Android version to be 4.4 with API 19.
+
 There is intent to keep the code base open for extending this support to desktop machines as well.
 
 ## Functionality
