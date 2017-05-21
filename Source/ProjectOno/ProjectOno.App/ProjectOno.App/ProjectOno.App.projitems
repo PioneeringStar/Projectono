@@ -13,6 +13,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Environment\Asset.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Environment\Event.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Environment\ViewModelBinding.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Environment\ViewModelTemplate.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\LocateFile.xaml.cs">

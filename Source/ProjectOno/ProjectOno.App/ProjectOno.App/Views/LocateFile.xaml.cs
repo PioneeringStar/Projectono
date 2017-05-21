@@ -12,7 +12,7 @@ namespace ProjectOno.App.Views
 	{
 		public LocateFile ()
 		{
-			InitializeComponent ();
+			InitializeComponent();
 		}
 	}
 }
