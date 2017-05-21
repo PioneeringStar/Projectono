@@ -1,19 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:env="clr-namespace:ProjectOno.App.Environment"
              x:Class="ProjectOno.App.Views.Locators.WebLocator"
-             >
+             env:Event.Bind="Navigation->Navigation">
     <StackLayout Orientation="Vertical"
                  VerticalOptions="FillAndExpand">
+        
+        <!-- Toolbar -->
         <StackLayout Orientation="Horizontal"
-                     HorizontalOptions="FillAndExpand">
+                     HorizontalOptions="Start">
             <Button Text="&lt;"
                     Command="{Binding NavigateBack}" />
             <Button Text="X"
                     Command="{Binding FindCancelled}" />
-            <Entry Text="{Binding Url}"
-                   TextColor="Beige"/>
         </StackLayout>
-        <WebView x:Name="WebView"/>
+        
+        <!-- Address -->
+        <Entry Text="{Binding Url, Mode=TwoWay}"
+               TextColor="Beige"
+               env:Event.Bind="Completed->UrlSet"/>
+        
+        <!-- Web -->
+        <WebView x:Name="WebView"
+                 Source="http://www.google.com"
+                 VerticalOptions="EndAndExpand"/>
     </StackLayout>
 </ContentView>
