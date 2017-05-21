@@ -29,6 +29,12 @@
             </env:ViewModelTemplate>
 
             <!-- Locator Views -->
+            <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:FileLocatorLoadStatus}" x:Key="ViewForLoadingFile">
+                <ControlTemplate>
+                    <Label Text="TEMP LOADING VIEW" TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+            
             <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:WebLocator}" x:Key="ViewForWebFileLocator">
                 <ControlTemplate>
                     <locatorViews:WebLocator />
@@ -54,31 +60,18 @@
                     <Setter Property="ControlTemplate">
                         <Setter.Value>
                             <ControlTemplate>
-                                <Grid>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition Height="100" />
-                                    </Grid.RowDefinitions>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*" />
-                                    </Grid.ColumnDefinitions>
-                                    <StackLayout Grid.Row="0"
-                                                 Grid.Column="0"
-                                                 VerticalOptions="StartAndExpand">
-                                        <Label FontSize="Large" 
-                                               TextColor="White"
-                                               Text="PROJECTONO"/>
-                                        <ScrollView>
-                                            <ContentView Content="{TemplateBinding Content}" 
-                                                         BindingContext="{TemplateBinding BindingContext}"/>
-                                        </ScrollView>
-                                    </StackLayout>
-                                    <StackLayout Grid.Row="1"
-                                                 Grid.Column="0">
-                                        <Button Command="{TemplateBinding BindingContext.Back}"
-                                                Text="{TemplateBinding BindingContext.BackText}" />
-                                    </StackLayout>
-                                </Grid>
+                                <StackLayout VerticalOptions="FillAndExpand">
+                                    <Label FontSize="Small" 
+                                           TextColor="White"
+                                           Text="PROJECTONO"
+                                           VerticalOptions="Start"/>
+                                    <ContentView Content="{TemplateBinding Content}" 
+                                                 BindingContext="{TemplateBinding BindingContext}"
+                                                 VerticalOptions="FillAndExpand"/>
+                                    <Button Command="{TemplateBinding BindingContext.Back}"
+                                            Text="{TemplateBinding BindingContext.BackText}" 
+                                            VerticalOptions="End"/>
+                                </StackLayout>
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>

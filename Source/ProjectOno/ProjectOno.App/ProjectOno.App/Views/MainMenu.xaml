@@ -2,11 +2,10 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ProjectOno.App.Views.MainMenu"             
-             BackgroundColor="Black"
-             Padding="5"
-             Style="{DynamicResource PageLayout}">
-    <StackLayout Grid.Row="0"
-                 Grid.Column="0">
+             Style="{DynamicResource PageLayout}"
+             VerticalOptions="FillAndExpand"
+             Padding="5">
+    <StackLayout VerticalOptions="StartAndExpand">
         <Button Command="{Binding StartPrint}"
                 Text="Print Something" />
         <Button Command="{Binding Settings}"

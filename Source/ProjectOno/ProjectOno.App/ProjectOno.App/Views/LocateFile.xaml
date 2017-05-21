@@ -5,14 +5,14 @@
              xmlns:env="clr-namespace:ProjectOno.App.Environment"
              xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
              xmlns:locators="clr-namespace:ProjectOno.Application.ViewModels.FileLocators;assembly=ProjectOno.Core"
-             BackgroundColor="Black" 
              Content="{env:ViewModelBinding Layout}"
-             Style="{DynamicResource PageLayout}">
+             Style="{DynamicResource PageLayout}"
+             VerticalOptions="FillAndExpand">
     <ContentView.Resources>
         <ResourceDictionary>
             <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="SelectFileLocator">
                 <ControlTemplate>
-                    <StackLayout VerticalOptions="FillAndExpand">
+                    <StackLayout VerticalOptions="StartAndExpand">
                         <Label Text="Select a source:"
                                TextColor="LightGray" />
                         <ListView ItemsSource="{Binding Locators}">
