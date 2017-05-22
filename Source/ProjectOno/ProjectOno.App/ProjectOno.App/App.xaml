@@ -28,10 +28,16 @@
                 </ControlTemplate>
             </env:ViewModelTemplate>
 
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:PrintDocument}" x:Key="ViewForDocumentPrinting">
+                <ControlTemplate>
+                    <view:PrintDocument />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
             <!-- Locator Views -->
             <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:FileLocatorLoadStatus}" x:Key="ViewForLoadingFile">
                 <ControlTemplate>
-                    <Label Text="TEMP LOADING VIEW" TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label Text="Loading..." TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
                 </ControlTemplate>
             </env:ViewModelTemplate>
             
@@ -57,6 +63,7 @@
             <!-- Standard Page Layout -->
             <Style x:Key="PageLayout" TargetType="ContentView">
                 <Style.Setters>
+                    <Setter Property="Padding" Value="5" />
                     <Setter Property="ControlTemplate">
                         <Setter.Value>
                             <ControlTemplate>

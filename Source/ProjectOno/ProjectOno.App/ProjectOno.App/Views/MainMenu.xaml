@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ProjectOno.App.Views.MainMenu"             
              Style="{DynamicResource PageLayout}"
-             VerticalOptions="FillAndExpand"
-             Padding="5">
+             VerticalOptions="FillAndExpand">
     <StackLayout VerticalOptions="StartAndExpand">
         <Button Command="{Binding StartPrint}"
                 Text="Print Something" />
