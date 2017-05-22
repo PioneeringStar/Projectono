@@ -2,6 +2,7 @@
 using ProjectOno.Application.ViewModels.Locators;
 using ProjectOno.Environment;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace ProjectOno.Application.ViewModels
 {
@@ -42,12 +43,14 @@ namespace ProjectOno.Application.ViewModels
         private void PrintFile(IFileLocator locator)
         {
             Layout = CreateChild<FileLocatorLoadStatus>();
-            _document.File = locator.SelectedFileName;
-            _document.SetFileContent(locator.SelectedFileContent)
-                     .ContinueWith(x => {
-                         Navigate<PrintDocument>();
-                         Layout = this;
-			         });
+            Task.Factory.StartNew(() => {
+                _document.File = locator.SelectedFileName;
+                _document.SetFileContent(locator.SelectedFileContent)
+                         .ContinueWith(x => {
+                             Navigate<PrintDocument>();
+                             Layout = this;
+                         });
+            });
         }
 
     }
