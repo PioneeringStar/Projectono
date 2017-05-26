@@ -1,10 +1,10 @@
-# ProjectOno
+# Projectono
 
-A community-driven, cross-platform, Mono-based application for the ONO 3D Printer.
+A community-driven, cross-platform, Mono-based application for mobile-driven resin printers.
 
-The intention of this project is to improve and extend the reach, user experience, and functionality of the ONO 3D Printer.
-There is concern around the stability of the existing (or lack of) official platform and support. 
-We, the community, believe we can do better!
+This project was inspired by the ONO (OLO) 3D printer and is being designed as an open platform for the emerging mobile-driven resin-based printer market. The intention is to create an extensible, light-weight platform that can be used as a simple interface for ONO and other printers in its market.
+
+*NOTE: Projectono is not affiliated with ONO. Projectono is an independent, open-source, community-driven project.*
 
 ## Support
 
