@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("ProjectOno.App.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Projectono.App.Droid.Resource", IsApplication=true)]
 
-namespace ProjectOno.App.Droid
+namespace Projectono.App.Droid
 {
 	
 	
@@ -26,7 +26,7 @@ namespace ProjectOno.App.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ProjectOno.App.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Projectono.App.Droid.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Environment
+namespace Projectono.Environment
 {
     public static class ObservableExtensions
     {

@@ -1,12 +1,12 @@
 ﻿using System;
-using ProjectOno.Environment;
+using Projectono.Environment;
 using System.Threading.Tasks;
-using ProjectOno.Environment.Adaptors;
+using Projectono.Environment.Adaptors;
 using System.Windows.Input;
 using System.Collections.Generic;
-using ProjectOno.Application.ViewModels;
+using Projectono.Application.ViewModels;
 
-namespace ProjectOno.Application.ViewModels
+namespace Projectono.Application.ViewModels
 {
 	public class Application : ViewModel
 	{

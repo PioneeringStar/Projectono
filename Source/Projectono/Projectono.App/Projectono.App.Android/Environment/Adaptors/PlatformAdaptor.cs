@@ -2,10 +2,10 @@ using System;
 using Android.App;
 using Android.Views;
 using Xamarin.Forms;
-using ProjectOno.Environment;
-using ProjectOno.Environment.Adaptors;
+using Projectono.Environment;
+using Projectono.Environment.Adaptors;
 
-namespace ProjectOno.App.Environment.Adaptors
+namespace Projectono.App.Environment.Adaptors
 {
     [Dependency.Transient]
     public class PlatformAdaptor : IPlatformAdaptor

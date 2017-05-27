@@ -1,4 +1,4 @@
-﻿# ProjectOno.App
+﻿# Projectono.App
 
 This project is where all cross-platform views go.
 Please refrain from putting any application code here.

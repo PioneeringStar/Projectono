@@ -1,4 +1,4 @@
-# ProjectOno
+# Projectono
 
 A community-driven, cross-platform, Mono-based application for the ONO 3D Printer.
 

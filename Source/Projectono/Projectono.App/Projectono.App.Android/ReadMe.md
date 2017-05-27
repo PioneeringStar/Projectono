@@ -1,4 +1,4 @@
-﻿# ProjectOno.App.Android
+﻿# Projectono.App.Android
 
 This is the project that will compile to the Android based app.
 Please place NO code in here.

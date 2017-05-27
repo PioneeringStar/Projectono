@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Environment.Adaptors
+namespace Projectono.Environment.Adaptors
 {
     /// <summary>
     /// A "PlatformAdaptor" should be made in each environment specific project

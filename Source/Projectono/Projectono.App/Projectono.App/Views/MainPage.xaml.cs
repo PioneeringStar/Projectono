@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace ProjectOno.App
+namespace Projectono.App
 {
 	public partial class MainPage : ContentPage
 	{

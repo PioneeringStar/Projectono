@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Views
+namespace Projectono.App.Views
 {
 	public partial class Splash : StackLayout
     {

@@ -1,9 +1,9 @@
-﻿using ProjectOno.Environment;
+﻿using Projectono.Environment;
 using System.IO;
 using System;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Application.Providers
+namespace Projectono.Application.Providers
 {
 	/// <summary>
 	/// A singleton provider allowing app-wide disassociated access to a single document.<br />

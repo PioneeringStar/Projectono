@@ -1,7 +1,7 @@
 ﻿using System;
-using ProjectOno.Environment;
+using Projectono.Environment;
 
-namespace ProjectOno.Application.ViewModels.Locators
+namespace Projectono.Application.ViewModels.Locators
 {
     public class FileLocatorLoadStatus : ViewModel
     {

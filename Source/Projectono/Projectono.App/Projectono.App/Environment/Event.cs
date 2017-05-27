@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Environment
+namespace Projectono.App.Environment
 {
     public class Event : BindableObject
     {

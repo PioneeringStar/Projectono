@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Assets
+namespace Projectono.Assets
 {
     public static class AssemblyProvider
     {

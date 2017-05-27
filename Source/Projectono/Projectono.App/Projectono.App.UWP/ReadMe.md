@@ -1,4 +1,4 @@
-﻿# ProjectOno.App.UWP
+﻿# Projectono.App.UWP
 
 This is the project that will compile to the Windows based app.
 Please place NO code in here.

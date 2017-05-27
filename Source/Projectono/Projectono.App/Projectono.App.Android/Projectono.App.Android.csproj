@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectOno.App.Droid</RootNamespace>
-    <AssemblyName>ProjectOno.App.Android</AssemblyName>
+    <RootNamespace>Projectono.App.Droid</RootNamespace>
+    <AssemblyName>Projectono.App.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -118,16 +118,16 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectOno.Assets\ProjectOno.Assets.csproj">
+    <ProjectReference Include="..\..\Projectono.Assets\Projectono.Assets.csproj">
       <Project>{5ff89db4-d4b6-4791-8853-fc594bdbba71}</Project>
-      <Name>ProjectOno.Assets</Name>
+      <Name>Projectono.Assets</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\ProjectOno.Core\ProjectOno.Core.csproj">
+    <ProjectReference Include="..\..\Projectono.Core\Projectono.Core.csproj">
       <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
-      <Name>ProjectOno.Core</Name>
+      <Name>Projectono.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="..\ProjectOno.App\ProjectOno.App.projitems" Label="Shared" Condition="Exists('..\ProjectOno.App\ProjectOno.App.projitems')" />
+  <Import Project="..\Projectono.App\Projectono.App.projitems" Label="Shared" Condition="Exists('..\Projectono.App\Projectono.App.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

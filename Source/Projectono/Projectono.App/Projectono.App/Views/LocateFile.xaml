@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="ProjectOno.App.Views.LocateFile"
-             xmlns:env="clr-namespace:ProjectOno.App.Environment"
-             xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
-             xmlns:locators="clr-namespace:ProjectOno.Application.ViewModels.FileLocators;assembly=ProjectOno.Core"
+             x:Class="Projectono.App.Views.LocateFile"
+             xmlns:env="clr-namespace:Projectono.App.Environment"
+             xmlns:vm="clr-namespace:Projectono.Application.ViewModels;assembly=Projectono.Core"
+             xmlns:locators="clr-namespace:Projectono.Application.ViewModels.FileLocators;assembly=Projectono.Core"
              Content="{env:ViewModelBinding Layout}"
              Style="{DynamicResource PageLayout}"
              VerticalOptions="FillAndExpand">

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using ProjectOno.Environment;
+using Projectono.Environment;
 
-namespace ProjectOno.Tests.Environment
+namespace Projectono.Tests.Environment
 {
     [TestFixture]
     public class ContainerTests

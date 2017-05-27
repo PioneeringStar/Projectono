@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Views
+namespace Projectono.App.Views
 {
 	public partial class LocateFile : ContentView
 	{

@@ -6,7 +6,7 @@
     <SharedGUID>59cde025-cd20-4b57-a18d-4b2afd367dd8</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>ProjectOno.App</Import_RootNamespace>
+    <Import_RootNamespace>Projectono.App</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">

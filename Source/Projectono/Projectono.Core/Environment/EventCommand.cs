@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace ProjectOno.Environment
+namespace Projectono.Environment
 {
     public class EventCommand : ICommand
     {

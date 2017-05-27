@@ -1,4 +1,4 @@
-﻿using ProjectOno.Environment;
+﻿using Projectono.Environment;
 using System;
 using System.Globalization;
 using System.Linq;
@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
 
-namespace ProjectOno.App.Environment
+namespace Projectono.App.Environment
 {
     [ContentProperty("Path")]
     public class ViewModelBinding : IMarkupExtension

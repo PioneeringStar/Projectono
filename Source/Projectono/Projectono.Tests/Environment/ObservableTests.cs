@@ -1,11 +1,11 @@
 ﻿using NUnit.Framework;
-using ProjectOno.Environment;
+using Projectono.Environment;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq.Expressions;
 
-namespace ProjectOno.Tests.Environment
+namespace Projectono.Tests.Environment
 {
     [TestFixture]
     public class ObservableTests

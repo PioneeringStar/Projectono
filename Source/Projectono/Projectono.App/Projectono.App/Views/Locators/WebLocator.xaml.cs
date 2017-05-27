@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProjectOno.Environment;
+using Projectono.Environment;
 
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Views.Locators
+namespace Projectono.App.Views.Locators
 {
 	public partial class WebLocator : ContentView
 	{
-        public event EventHandler<ProjectOno.Application.ViewModels.Locators.WebLocator.NavigationEventArgs> Navigation;
+        public event EventHandler<Projectono.Application.ViewModels.Locators.WebLocator.NavigationEventArgs> Navigation;
 
 		public WebLocator ()
 		{
 			InitializeComponent ();
             WebView.Navigating += (s, e) => {
-                var fwdargs = new ProjectOno.Application.ViewModels.Locators.WebLocator.NavigationEventArgs {
+                var fwdargs = new Projectono.Application.ViewModels.Locators.WebLocator.NavigationEventArgs {
                     Url = e.Url,
                     Cancel = e.Cancel
                 };

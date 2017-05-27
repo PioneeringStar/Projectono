@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             xmlns:env="clr-namespace:ProjectOno.App.Environment"
-             x:Class="ProjectOno.App.Views.Locators.WebLocator"
+             xmlns:env="clr-namespace:Projectono.App.Environment"
+             x:Class="Projectono.App.Views.Locators.WebLocator"
              VerticalOptions="FillAndExpand"
              BackgroundColor="FloralWhite"
              env:Event.Bind="Navigation->Navigation">

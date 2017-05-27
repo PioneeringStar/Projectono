@@ -7,8 +7,8 @@
     <ProjectGuid>{06FF6AC1-6752-4260-9368-4006DAFAD303}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectOno.App.UWP</RootNamespace>
-    <AssemblyName>ProjectOno.App.UWP</AssemblyName>
+    <RootNamespace>Projectono.App.UWP</RootNamespace>
+    <AssemblyName>Projectono.App.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
@@ -17,7 +17,7 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>ProjectOno.App.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Projectono.App.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -107,7 +107,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="ProjectOno.App.UWP_TemporaryKey.pfx" />
+    <None Include="Projectono.App.UWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -150,19 +150,19 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ProjectOno.Assets\ProjectOno.Assets.csproj">
+    <ProjectReference Include="..\..\Projectono.Assets\Projectono.Assets.csproj">
       <Project>{5ff89db4-d4b6-4791-8853-fc594bdbba71}</Project>
-      <Name>ProjectOno.Assets</Name>
+      <Name>Projectono.Assets</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\ProjectOno.Core\ProjectOno.Core.csproj">
+    <ProjectReference Include="..\..\Projectono.Core\Projectono.Core.csproj">
       <Project>{67f9d3a8-f71e-4428-913f-c37ae82cdb24}</Project>
-      <Name>ProjectOno.Core</Name>
+      <Name>Projectono.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
-  <Import Project="..\ProjectOno.App\ProjectOno.App.projitems" Label="Shared" Condition="Exists('..\ProjectOno.App\ProjectOno.App.projitems')" />
+  <Import Project="..\Projectono.App\Projectono.App.projitems" Label="Shared" Condition="Exists('..\Projectono.App\Projectono.App.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

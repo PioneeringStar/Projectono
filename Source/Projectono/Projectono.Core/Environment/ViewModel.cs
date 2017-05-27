@@ -1,7 +1,7 @@
 ﻿
 using System;
 
-namespace ProjectOno.Environment
+namespace Projectono.Environment
 {
     public interface IViewModel : IObservable
     {

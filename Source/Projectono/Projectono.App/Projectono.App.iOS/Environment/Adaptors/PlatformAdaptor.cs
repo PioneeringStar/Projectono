@@ -1,9 +1,9 @@
-using ProjectOno.Environment;
-using ProjectOno.Environment.Adaptors;
+using Projectono.Environment;
+using Projectono.Environment.Adaptors;
 using System;
 using System.Threading;
 
-namespace ProjectOno.App.Environment.Adaptors
+namespace Projectono.App.Environment.Adaptors
 {
     [Dependency.Transient]
     public class PlatformAdaptor : IPlatformAdaptor

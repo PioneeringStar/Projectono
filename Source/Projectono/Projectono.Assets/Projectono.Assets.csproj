@@ -8,8 +8,8 @@
     <ProjectGuid>{5FF89DB4-D4B6-4791-8853-FC594BDBBA71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ProjectOno.Assets</RootNamespace>
-    <AssemblyName>ProjectOno.Assets</AssemblyName>
+    <RootNamespace>Projectono.Assets</RootNamespace>
+    <AssemblyName>Projectono.Assets</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace ProjectOno.App.Environment
+namespace Projectono.App.Environment
 {
     [ContentProperty("ControlTemplate")]
     public class ViewModelTemplate

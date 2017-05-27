@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace ProjectOno.App.iOS
+namespace Projectono.App.iOS
 {
 	public class Application
 	{

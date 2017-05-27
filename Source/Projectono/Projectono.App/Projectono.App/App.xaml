@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:env="clr-namespace:ProjectOno.App.Environment"
-             xmlns:vm="clr-namespace:ProjectOno.Application.ViewModels;assembly=ProjectOno.Core"
-             xmlns:locatorVms="clr-namespace:ProjectOno.Application.ViewModels.Locators;assembly=ProjectOno.Core"
-             xmlns:view="clr-namespace:ProjectOno.App.Views"
-             xmlns:locatorViews="clr-namespace:ProjectOno.App.Views.Locators"
-             x:Class="ProjectOno.App.App">
+             xmlns:env="clr-namespace:Projectono.App.Environment"
+             xmlns:vm="clr-namespace:Projectono.Application.ViewModels;assembly=Projectono.Core"
+             xmlns:locatorVms="clr-namespace:Projectono.Application.ViewModels.Locators;assembly=Projectono.Core"
+             xmlns:view="clr-namespace:Projectono.App.Views"
+             xmlns:locatorViews="clr-namespace:Projectono.App.Views.Locators"
+             x:Class="Projectono.App.App">
 	<Application.Resources>
         <ResourceDictionary>
             <!-- Global assignments of views to view-models should be configured here -->

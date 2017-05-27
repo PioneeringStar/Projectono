@@ -1,6 +1,6 @@
-﻿using ProjectOno.Application.ViewModels;
-using ProjectOno.Environment;
-using ProjectOno.Environment.Adaptors;
+﻿using Projectono.Application.ViewModels;
+using Projectono.Environment;
+using Projectono.Environment.Adaptors;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ using System.Text;
 
 using Xamarin.Forms;
 
-namespace ProjectOno.App
+namespace Projectono.App
 {
 	public partial class App : Xamarin.Forms.Application
 	{

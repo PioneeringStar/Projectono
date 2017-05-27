@@ -1,10 +1,10 @@
-﻿using ProjectOno.Application.Providers;
-using ProjectOno.Application.ViewModels.Locators;
-using ProjectOno.Environment;
+﻿using Projectono.Application.Providers;
+using Projectono.Application.ViewModels.Locators;
+using Projectono.Environment;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Application.ViewModels
+namespace Projectono.Application.ViewModels
 {
     public class LocateFile : PagedViewModel
     {

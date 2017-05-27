@@ -1,6 +1,6 @@
-﻿using ProjectOno.Environment;
+﻿using Projectono.Environment;
 
-namespace ProjectOno.Application.ViewModels
+namespace Projectono.Application.ViewModels
 {
     public class Splash : PagedViewModel
     {

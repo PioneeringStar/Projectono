@@ -1,4 +1,4 @@
-﻿using ProjectOno.Environment.Adaptors;
+﻿using Projectono.Environment.Adaptors;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace ProjectOno.App.UWP
+namespace Projectono.App.UWP
 {
     public sealed partial class MainPage
     {
@@ -22,7 +22,7 @@ namespace ProjectOno.App.UWP
         {
             PlatformAdaptor.MainPage = this;
             this.InitializeComponent();
-            LoadApplication(new ProjectOno.App.App());
+            LoadApplication(new Projectono.App.App());
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ProjectOno.Environment
+namespace Projectono.Environment
 {
 	public abstract class Dependency : Attribute
 	{

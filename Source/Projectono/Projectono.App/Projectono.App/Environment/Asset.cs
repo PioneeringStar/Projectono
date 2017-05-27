@@ -1,11 +1,11 @@
-﻿using ProjectOno.Assets;
+﻿using Projectono.Assets;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ProjectOno.App.Environment
+namespace Projectono.App.Environment
 {
     [ContentProperty("Path")]
     public class Asset : IMarkupExtension
@@ -14,7 +14,7 @@ namespace ProjectOno.App.Environment
 
         public object ProvideValue(IServiceProvider serviceProvider)
         {
-            var path = "ProjectOno.Assets." + Path;
+            var path = "Projectono.Assets." + Path;
             var asset = ImageSource.FromResource(path, AssemblyProvider.Get());
             return asset;
         }

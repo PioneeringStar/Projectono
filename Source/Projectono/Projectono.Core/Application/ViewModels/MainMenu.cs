@@ -1,13 +1,13 @@
-﻿using ProjectOno.Environment;
+﻿using Projectono.Environment;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using ProjectOno.Environment.Adaptors;
+using Projectono.Environment.Adaptors;
 
-namespace ProjectOno.Application.ViewModels
+namespace Projectono.Application.ViewModels
 {
     public class MainMenu : PagedViewModel
     {

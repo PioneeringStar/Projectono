@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
 
-namespace ProjectOno.Environment
+namespace Projectono.Environment
 {
 	public interface IObservable : INotifyPropertyChanged {
 

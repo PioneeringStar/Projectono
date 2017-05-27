@@ -1,10 +1,10 @@
-﻿using ProjectOno.Environment;
+﻿using Projectono.Environment;
 using System.IO;
 using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace ProjectOno.Application.ViewModels.Locators
+namespace Projectono.Application.ViewModels.Locators
 {
     [Dependency.Transient]
     public class WebLocator : FileLocator

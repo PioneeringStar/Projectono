@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using ProjectOno.Application.ViewModels;
-using ProjectOno.Environment;
+using Projectono.Application.ViewModels;
+using Projectono.Environment;
 
-namespace ProjectOno
+namespace Projectono
 {
 	public static class Bootstrap
 	{
