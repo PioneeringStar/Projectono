@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:env="clr-namespace:Projectono.App.Environment"
+             xmlns:vm="clr-namespace:Projectono.Application.ViewModels;assembly=Projectono.Core"
+             xmlns:locatorVms="clr-namespace:Projectono.Application.ViewModels.Locators;assembly=Projectono.Core"
+             xmlns:view="clr-namespace:Projectono.App.Views"
+             xmlns:locatorViews="clr-namespace:Projectono.App.Views.Locators"
+             x:Class="Projectono.App.App">
+	<Application.Resources>
+        <ResourceDictionary>
+            <!-- Global assignments of views to view-models should be configured here -->
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:Splash}" x:Key="ViewForSplash">
+                <ControlTemplate>
+                    <view:Splash />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:MainMenu}" x:Key="ViewForMainMenu">
+                <ControlTemplate>
+                    <view:MainMenu />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:LocateFile}" x:Key="ViewForLocatorSelection">
+                <ControlTemplate>
+                    <view:LocateFile />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:PrintDocument}" x:Key="ViewForDocumentPrinting">
+                <ControlTemplate>
+                    <view:PrintDocument />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+
+            <!-- Locator Views -->
+            <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:FileLocatorLoadStatus}" x:Key="ViewForLoadingFile">
+                <ControlTemplate>
+                    <Label Text="Loading..." TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+            
+            <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:WebLocator}" x:Key="ViewForWebFileLocator">
+                <ControlTemplate>
+                    <locatorViews:WebLocator />
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+            
+            <!-- This is just a test, inline assignment -->
+            <env:ViewModelTemplate ViewModelType="{x:Type vm:TestViewModel}" x:Key="TestViewModelAssignment">
+                <ControlTemplate>
+                    <ContentView Style="{DynamicResource PageLayout}">
+                        <StackLayout VerticalOptions="CenterAndExpand">
+                            <Label Text="------------------------------------Test Starting!-----------------------------------" TextColor="Red" />
+                            <Label Text="{Binding TestText}" TextColor="Red" />
+                            <Label Text="------------------------------------Test Complete!-----------------------------------" TextColor="Red" />
+                        </StackLayout>
+                    </ContentView>
+                </ControlTemplate>
+            </env:ViewModelTemplate>
+            
+            <!-- Standard Page Layout -->
+            <Style x:Key="PageLayout" TargetType="ContentView">
+                <Style.Setters>
+                    <Setter Property="Padding" Value="5" />
+                    <Setter Property="ControlTemplate">
+                        <Setter.Value>
+                            <ControlTemplate>
+                                <StackLayout VerticalOptions="FillAndExpand">
+                                    <Label FontSize="Small" 
+                                           TextColor="White"
+                                           Text="PROJECTONO (prototype)"
+                                           VerticalOptions="Start"/>
+                                    <ContentView Content="{TemplateBinding Content}" 
+                                                 BindingContext="{TemplateBinding BindingContext}"
+                                                 VerticalOptions="FillAndExpand"/>
+                                    <Button Command="{TemplateBinding BindingContext.Back}"
+                                            Text="{TemplateBinding BindingContext.BackText}" 
+                                            VerticalOptions="End"/>
+                                </StackLayout>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style.Setters>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

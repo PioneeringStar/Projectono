@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projectono.Core</RootNamespace>
+    <AssemblyName>Projectono.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Application\Providers\IDocumentProvider.cs" />
+    <Compile Include="Application\ViewModels\Application.cs" />
+    <Compile Include="Application\ViewModels\LocateFile.cs" />
+    <Compile Include="Application\ViewModels\Locators\FileLocator.cs" />
+    <Compile Include="Application\ViewModels\Locators\FileLocatorLoadStatus.cs" />
+    <Compile Include="Application\ViewModels\Locators\WebLocator.cs" />
+    <Compile Include="Application\ViewModels\MainMenu.cs" />
+    <Compile Include="Application\ViewModels\PagedViewModel.cs" />
+    <Compile Include="Application\ViewModels\PrintDocument.cs" />
+    <Compile Include="Application\ViewModels\Splash.cs" />
+    <Compile Include="Application\ViewModels\TestViewModel.cs" />
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="Environment\Adaptors\IPlatformAdaptor.cs" />
+    <Compile Include="Environment\Dependency.cs" />
+    <Compile Include="Environment\EventCommand.cs" />
+    <Compile Include="Environment\Extensions\ExpressionExtensions.cs" />
+    <Compile Include="Environment\Extensions\ObservableExtensions.cs" />
+    <Compile Include="Environment\IocContainer.cs" />
+    <Compile Include="Environment\Observable.cs" />
+    <Compile Include="Environment\ViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.md" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
