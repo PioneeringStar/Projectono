@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:env="clr-namespace:ProjectOno.App.Environment"
+             x:Class="ProjectOno.App.Views.Locators.WebLocator"
+             VerticalOptions="FillAndExpand"
+             BackgroundColor="FloralWhite"
+             env:Event.Bind="Navigation->Navigation">
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="FillAndExpand">
+        
+        <!-- Toolbar -->
+        <StackLayout Orientation="Horizontal"
+                     VerticalOptions="Start">
+            <Button Text="&lt;"
+                    Command="{Binding NavigateBack}" 
+                    HorizontalOptions="Start"/>
+
+            <!-- Address -->
+            <Entry Text="{Binding Url, Mode=TwoWay}"
+               TextColor="Black"
+               env:Event.Bind="Completed->UrlSet"
+               HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        
+        <!-- Web -->
+        <Grid VerticalOptions="FillAndExpand">
+            <WebView x:Name="WebView"
+                     Source="{Binding WebUrl, Mode=TwoWay}"/>
+
+        </Grid>
+    </StackLayout>
+</ContentView>
