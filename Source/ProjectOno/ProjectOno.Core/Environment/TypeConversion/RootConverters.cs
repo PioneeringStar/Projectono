@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using Projectono.Environment;
 
 namespace Projectono.Core.Environment.TypeConversion
 {
+    [Dependency.Transient]
     public class RootConverters : ITypeConverter,
             ITypeConverter<bool, bool>,
             ITypeConverter<sbyte, bool>,

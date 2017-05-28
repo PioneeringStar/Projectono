@@ -1,7 +1,9 @@
 ﻿using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Projectono.Core.Environment.Adaptors;
+using Projectono.Core.Environment.TypeConversion;
 
 namespace Projectono.Core.Application.Profiles
 {
@@ -50,17 +52,42 @@ namespace Projectono.Core.Application.Profiles
         public abstract Profile.Setting[] CreateDefaultSettings();
 
         private readonly IConfigurationAdaptor _config;
+        private readonly ITypeConverter[] _converters;
 
-        protected Profile(IConfigurationAdaptor config)
+        protected Profile(IConfigurationAdaptor config, ITypeConverter[] converters)
         {
             _config = config;
+            _converters = converters;
+        }
+
+        protected string Serialize(object value) {
+            value = value ?? "";
+            var type = (value).GetType();
+            var converter = _converters.FirstOrDefault(c => c.CanConvert(type, typeof(string)));
+            if (converter != null) return (string)converter.Convert(value, typeof(string));
+            return value.ToString();
+        }
+
+        protected T Parse<T>(string value) {
+            value = value ?? "";
+            var type = typeof(T);
+            var converter = _converters.FirstOrDefault(c => c.CanConvert(typeof(string), type));
+            if (converter != null) return (T)converter.Convert(value, type);
+            try {
+				var parser = type
+					.GetTypeInfo()
+					.GetDeclaredMethod("Parse");
+                return (T)parser.Invoke(null, new object[] { value });
+			} catch {
+                return default(T);
+            }
         }
 
         public async Task<Profile.Setting[]> ReadSettings()
         {
             var xml = await _config.LoadConfiguration("PrinterProfile/" + Name);
             var settings = CreateDefaultSettings();
-            foreach (var child in xml.Nodes().OfType<XElement>()) {
+            foreach (var setting in xml.Nodes().OfType<XElement>()) {
                 var setting = settings.FirstOrDefault(s => s.Name == child.Attribute("Name").Value);
                 if (setting == null) continue;
                 // TODO: This needs value conversion services to parse to the defaults value type
