@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using Projectono.Core.Environment.Adaptors;
 using Projectono.Core.Environment.TypeConversion;
+using System;
 
 namespace Projectono.Core.Application.Profiles
 {
@@ -49,6 +50,9 @@ namespace Projectono.Core.Application.Profiles
         public abstract Task NotifyPrintStart();
         public abstract Task NotifyPrintComplete();
 
+        /// <summary>
+        /// Create a new Profile.Setting collection with default values
+        /// </summary>
         public abstract Profile.Setting[] CreateDefaultSettings();
 
         private readonly IConfigurationAdaptor _config;
@@ -60,53 +64,62 @@ namespace Projectono.Core.Application.Profiles
             _converters = converters;
         }
 
+        /// <summary>
+        /// Serializes a value to a string
+        /// </summary>
         protected string Serialize(object value) {
             value = value ?? "";
             var type = (value).GetType();
-            var converter = _converters.FirstOrDefault(c => c.CanConvert(type, typeof(string)));
+            var converter = _converters.LastOrDefault(c => c.CanConvert(type, typeof(string)));
             if (converter != null) return (string)converter.Convert(value, typeof(string));
             return value.ToString();
         }
 
-        protected T Parse<T>(string value) {
+        /// <summary>
+        /// Attempts to parse the value to the specified type
+        /// </summary>
+        protected object Parse(string value, Type type) {
             value = value ?? "";
-            var type = typeof(T);
             var converter = _converters.FirstOrDefault(c => c.CanConvert(typeof(string), type));
-            if (converter != null) return (T)converter.Convert(value, type);
+            if (converter != null) return converter.Convert(value, type);
             try {
 				var parser = type
 					.GetTypeInfo()
 					.GetDeclaredMethod("Parse");
-                return (T)parser.Invoke(null, new object[] { value });
+                return parser.Invoke(null, new object[] { value });
 			} catch {
-                return default(T);
+                return "";
             }
         }
 
+        /// <summary>
+        /// Loads the current configuration for this profile
+        /// </summary>
         public async Task<Profile.Setting[]> ReadSettings()
         {
             var xml = await _config.LoadConfiguration("PrinterProfile/" + Name);
             var settings = CreateDefaultSettings();
-            foreach (var setting in xml.Nodes().OfType<XElement>()) {
-                var setting = settings.FirstOrDefault(s => s.Name == child.Attribute("Name").Value);
-                if (setting == null) continue;
-                // TODO: This needs value conversion services to parse to the defaults value type
+            foreach (var setting in settings) {
+                var type = (setting.Value ?? "").GetType();
+                var config = xml.Elements().FirstOrDefault(e => e.Attribute("Name").Value == setting.Name);
+                setting.Value = config != null ? Parse(config.Attribute("Value").Value, type) : setting.Value ?? "";
             }
             return settings;
         }
 
+        /// <summary>
+        /// Saves configuration for this profile
+        /// </summary>
         public async Task WriteSettings(Profile.Setting[] settings)
         {
             var defaults = CreateDefaultSettings();
             var xml = new XElement("Settings");
             foreach (var setting in settings) {
-                var match = defaults.FirstOrDefault(d => d.Name == setting.Name);
-                if (match == null) continue;
-                var value = new XElement("Setting");
-                value.SetAttributeValue("Name", match.Name);
-				// TODO: This needs value conversion services to appropriately format values to string
-				value.SetAttributeValue("Value", /* TODO: conversion here */ setting.Value);
-                xml.Add(value);
+                if (!defaults.Any(d => d.Name == setting.Name)) continue;
+                var config = new XElement("Setting");
+                config.SetAttributeValue("Name", setting.Name);
+                config.SetAttributeValue("Value", Serialize(setting.Value));
+                xml.Add(config);
             }
             await _config.WriteConfiguration("PrinterProfile/" + Name, xml);
         }
