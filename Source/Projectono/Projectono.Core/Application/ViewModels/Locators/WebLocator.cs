@@ -22,12 +22,6 @@ namespace Projectono.Application.ViewModels.Locators
             NavigateBack = new EventCommand();
         }
 
-        protected override void OnNotification(Notification notification)
-        {
-            if (notification.MemberName == "WebUrl") { Url = notification.NewValue as string; }
-            base.OnNotification(notification);
-        }
-
         public override void Reset() { }
 
         protected override void OnReady() { }
@@ -44,6 +38,8 @@ namespace Projectono.Application.ViewModels.Locators
                 this.SelectedFileName = e.Url;
                 this.SelectedFileContent = new WebStream(e.Url);
                 this.FileFound.Execute(null);
+            } else {
+                Url = e.Url;
             }
         }
 
@@ -55,40 +51,38 @@ namespace Projectono.Application.ViewModels.Locators
 
         private class WebStream : Stream
         {
-            private readonly Task<Stream> _request;
+            private readonly Task _request;
+            private Stream _source;
 
             public WebStream(string url)
             {
                 _request = WebRequest
                     .Create(url)
                     .GetResponseAsync()
-                    .ContinueWith(response => {
-                        var source = response.Result.GetResponseStream();
-                        var stream = new MemoryStream();
-                        source.CopyTo(stream);
-                        return (Stream)stream;
+                    .ContinueWith(t => {
+                        _source = t.Result.GetResponseStream();
                     });
             }
 
-            public override bool CanRead { get { _request.Wait(); return _request.Result.CanRead; } }
+            public override bool CanRead { get { _request.Wait(); return _source.CanRead; } }
 
-            public override bool CanSeek { get { _request.Wait(); return _request.Result.CanSeek; } }
+            public override bool CanSeek { get { _request.Wait(); return _source.CanSeek; } }
 
-            public override bool CanWrite { get { _request.Wait(); return _request.Result.CanWrite; } }
+            public override bool CanWrite { get { _request.Wait(); return _source.CanWrite; } }
 
-            public override long Length { get { _request.Wait(); return _request.Result.Length; } }
+            public override long Length { get { _request.Wait(); return _source.Length; } }
 
-            public override long Position { get { _request.Wait(); return _request.Result.Position; } set { _request.Wait(); _request.Result.Position = value; } }
+            public override long Position { get { _request.Wait(); return _source.Position; } set { _request.Wait(); _source.Position = value; } }
 
-            public override void Flush() { _request.Wait(); _request.Result.Flush(); }
+            public override void Flush() { _request.Wait(); _source.Flush(); }
 
-            public override int Read(byte[] buffer, int offset, int count) { _request.Wait(); return _request.Result.Read(buffer, offset, count); }
+            public override int Read(byte[] buffer, int offset, int count) { _request.Wait(); return _source.Read(buffer, offset, count); }
 
-            public override long Seek(long offset, SeekOrigin origin) { _request.Wait(); return _request.Result.Seek(offset, origin); }
+            public override long Seek(long offset, SeekOrigin origin) { _request.Wait(); return _source.Seek(offset, origin); }
 
-            public override void SetLength(long value) { _request.Wait(); _request.Result.SetLength(value); }
+            public override void SetLength(long value) { _request.Wait(); _source.SetLength(value); }
 
-            public override void Write(byte[] buffer, int offset, int count) { _request.Wait(); _request.Result.Write(buffer, offset, count); }
+            public override void Write(byte[] buffer, int offset, int count) { _request.Wait(); _source.Write(buffer, offset, count); }
         }
     }
 }

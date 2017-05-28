@@ -24,6 +24,15 @@ namespace Projectono.App.Views.Locators
                 if (Navigation != null) { Navigation(this, fwdargs); }
                 e.Cancel = fwdargs.Cancel;
             };
+            BindingContextChanged += (s, e) => {
+                var vm = BindingContext as Application.ViewModels.Locators.WebLocator;
+                if (vm == null) { return; }
+                vm.NavigateBack.CommandExecuted += (ss, ee) => {
+                    if (WebView.CanGoBack) {
+                        WebView.GoBack();
+                    }
+                };
+            };
 		}
 	}
 }

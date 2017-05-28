@@ -2,6 +2,7 @@
 using System.IO;
 using System;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Projectono.Application.Providers
 {
@@ -35,6 +36,11 @@ namespace Projectono.Application.Providers
         /// Note: This may fire asynchronously after the SetFileContent method has completed.
         /// </summary>
         event EventHandler DocumentUpdated;
+
+        /// <summary>
+        /// Information about the status of the document process
+        /// </summary>
+        float Progress { get; }
     }
 
     [Dependency.Singleton]
@@ -48,11 +54,21 @@ namespace Projectono.Application.Providers
         }
 
         public async Task SetFileContent(Stream source) {
-            // TODO: To support large files: First ask why. Next write a less memory intensive provider.
-            await source.ReadAsync(_content = new byte[source.Length], 0, (int)source.Length);
+            // TODO: To support large files (Greater than int.MAX): First ask why. Next write a less memory intensive provider.
+            Progress = 0;
+            var position = 0;
+            _content = new byte[source.Length];
+            var chunkSize = 1024;
+            while (position < source.Length) {
+                var block = (int)Math.Min(chunkSize, source.Length - position);
+                await source.ReadAsync(_content, position, block);
+                position += block;
+                Progress = position / (float)source.Length;
+            }
             if (DocumentUpdated != null) { DocumentUpdated(this, null); }
         }
 
         public event EventHandler DocumentUpdated;
+        public float Progress { get; private set; }
     }
 }

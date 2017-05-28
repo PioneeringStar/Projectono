@@ -37,7 +37,7 @@
             <!-- Locator Views -->
             <env:ViewModelTemplate ViewModelType="{x:Type locatorVms:FileLocatorLoadStatus}" x:Key="ViewForLoadingFile">
                 <ControlTemplate>
-                    <Label Text="Loading..." TextColor="Red" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <locatorViews:Progress />
                 </ControlTemplate>
             </env:ViewModelTemplate>
             
