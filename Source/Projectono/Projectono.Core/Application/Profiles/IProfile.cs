@@ -1,8 +1,4 @@
-﻿using Projectono.Core.Application.Providers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using Projectono.Core.Environment.Adaptors;
@@ -62,7 +58,7 @@ namespace Projectono.Core.Application.Profiles
 
         public async Task<Profile.Setting[]> ReadSettings()
         {
-            var xml = await _config.LoadConfiguration("PrinterProfile_" + Name);
+            var xml = await _config.LoadConfiguration("PrinterProfile/" + Name);
             var settings = CreateDefaultSettings();
             foreach (var child in xml.Nodes().OfType<XElement>()) {
                 var setting = settings.FirstOrDefault(s => s.Name == child.Attribute("Name").Value);
@@ -79,13 +75,13 @@ namespace Projectono.Core.Application.Profiles
             foreach (var setting in settings) {
                 var match = defaults.FirstOrDefault(d => d.Name == setting.Name);
                 if (match == null) continue;
-                // TODO: This needs value conversion services to appropriately format values to string
                 var value = new XElement("Setting");
                 value.SetAttributeValue("Name", match.Name);
-                value.SetAttributeValue("Value", /* TODO: conversion here */ setting.Value);
+				// TODO: This needs value conversion services to appropriately format values to string
+				value.SetAttributeValue("Value", /* TODO: conversion here */ setting.Value);
                 xml.Add(value);
             }
-            await _config.WriteConfiguration("PrinterProfile_" + Name, xml);
+            await _config.WriteConfiguration("PrinterProfile/" + Name, xml);
         }
 
         /// <summary>

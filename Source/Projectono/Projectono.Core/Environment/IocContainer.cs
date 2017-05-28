@@ -82,7 +82,7 @@ namespace Projectono.Environment
             var factories = GetFactories(type);
             return isArray
                 ? CastArray(type, factories.Select(f => f()).ToArray())
-                : factories.First()();
+                : factories.Last()();
         }
 
         public IIocContainer CreateScope()
