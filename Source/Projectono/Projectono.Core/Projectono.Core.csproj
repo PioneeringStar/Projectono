@@ -36,7 +36,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Application\Profiles\IProfile.cs" />
-    <Compile Include="Application\Providers\IConfigurationProvider.cs" />
     <Compile Include="Application\Providers\IDocumentProvider.cs" />
     <Compile Include="Application\ViewModels\Application.cs" />
     <Compile Include="Application\ViewModels\LocateFile.cs" />
@@ -58,6 +57,7 @@
     <Compile Include="Environment\Observable.cs" />
     <Compile Include="Environment\ViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Environment\Adaptors\IConfigurationAdaptor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.md" />

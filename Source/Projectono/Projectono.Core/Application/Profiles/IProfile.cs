@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
+using Projectono.Core.Environment.Adaptors;
 
 namespace Projectono.Core.Application.Profiles
 {
@@ -52,9 +53,9 @@ namespace Projectono.Core.Application.Profiles
 
         public abstract Profile.Setting[] CreateDefaultSettings();
 
-        private readonly IConfigurationProvider _config;
+        private readonly IConfigurationAdaptor _config;
 
-        protected Profile(IConfigurationProvider config)
+        protected Profile(IConfigurationAdaptor config)
         {
             _config = config;
         }
