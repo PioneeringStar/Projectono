@@ -35,6 +35,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Application\Profiles\IProfile.cs" />
+    <Compile Include="Application\Providers\IConfigurationProvider.cs" />
     <Compile Include="Application\Providers\IDocumentProvider.cs" />
     <Compile Include="Application\ViewModels\Application.cs" />
     <Compile Include="Application\ViewModels\LocateFile.cs" />
