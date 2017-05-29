@@ -137,6 +137,14 @@ namespace Projectono.Core.Application.Profiles
             /// The current value of this profile setting
             /// </summary>
             public object Value { get; set; }
+            /// <summary>
+            /// Minimum tollerance for this setting
+            /// </summary>
+            public IComparable Min { get; set; }
+            /// <summary>
+            /// Maximum tollerance for this setting
+            /// </summary>
+            public IComparable Max { get; set; }
         }
     }
 }
